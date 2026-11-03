@@ -5,7 +5,7 @@ const U=Number(process.argv[2]);
 const CH={1:"7840f299-1cce-403e-9320-d6ddf613cebf",2:"2c3ad11f-a37e-4a64-ba6a-6cfa256cc6be",3:"5f975081-b8b7-4799-9d9c-b83a53423e4f",4:"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b",5:"bfb4fa0c-fbd4-436f-8b37-3b307810cf63",6:"1ed78c87-3e9c-4426-a2fb-4a155955a7bb",7:"bc8967a2-13b9-4a3f-a127-e368e228e9e5",8:"f8dc1090-7968-4eb7-b231-63da59732244"}[U];
 const Q={1:["u1g145","ZNNSSBCs2Q3YJfqV"],2:["u2g244","tvE2V6FhdVwVAkal"],3:["u3g357","kZlowL3glIRoSqa2"],4:["u4g811","v8fhE9KZ2fvwOct7"],5:["u5g822","FiusoOeHRf4AS4aj"],6:["u6g833","lmRrP6eoLzeGLRjl"],7:["u7g1123","b2qiwPZQciRZQtVC"],8:["u8g1125","uFNeyMK0f1wR2oj6"]}[U];
 const [ANCHOR,PAPER]=Q;
-const BOOK="0iws4u_bQkCFpqmfcTvdAg",BV="VTqvEEI";
+const BOOK=(await import("./config.mjs")).BOOK,BV="VTqvEEI";
 const log=(...a)=>console.log(...a);
 const TID=process.env.TID||"84B74FE42AFBE800BB4140C151D85DA8";
 const L=await connect(TID);
