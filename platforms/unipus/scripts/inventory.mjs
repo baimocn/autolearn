@@ -2,7 +2,7 @@
 import { connect, sleep } from "./utlib.mjs";
 import fs from "node:fs";
 
-const BOOK = "0iws4u_bQkCFpqmfcTvdAg", BV = "VTqvEEI";
+const BOOK = (await import("./config.mjs")).BOOK, BV = "VTqvEEI";
 const TID = "D6816472D8507E6DCD80805A5A543A96";
 const CH = {
   1: "7840f299-1cce-403e-9320-d6ddf613cebf",
