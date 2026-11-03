@@ -13,6 +13,7 @@ description: 在线课程平台自动化总入口（多平台）。当前收录 
 | 平台 | 入口 | 域名特征 |
 |---|---|---|
 | U校园 Unipus | `platforms/unipus/SKILL.md` | `ucontent.unipus.cn` / `ipub.unipus.cn` / `uai.unipus.cn` / `sso.unipus.cn` |
+| ICC 高教社数字课程 | `platforms/hep-icc/SKILL.md` | `icc.hep.com.cn`（JeecgBoot 微服务，多 `/jeecg-*/` 前缀） |
 
 > 新平台接入：复制 `platforms/unipus/` 改造成 `platforms/<new>/`，
 > 保留「先探测、再动手、每步用接口 pass 核验」的骨架，替换选择器与接口即可。
