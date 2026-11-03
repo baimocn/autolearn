@@ -14,7 +14,7 @@ const T = {
   7: { ch: "bc8967a2-13b9-4a3f-a127-e368e228e9e5", ut: "Xah5ohJ4eaoiG7ra", first: "u7g881", paper: "DLoRxFxhsWXHTiVh" },
   8: { ch: "f8dc1090-7968-4eb7-b231-63da59732244", ut: "iN2uUP7NJsOY0p8a", first: "u8g983", paper: "d2tv8TtKg3BmGZad" },
 }[U];
-const BOOK = "0iws4u_bQkCFpqmfcTvdAg", BV = "VTqvEEI";
+const BOOK = (await import("./config.mjs")).BOOK, BV = "VTqvEEI";
 const PREFIX = "#/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/courseware/";
 const READER = "https://ucontent.unipus.cn/_ipublishpc_default/pc.html?cid=1837944375799767040&theme=3264FA&aitutorialId=34657&cloudCurriculaId=356008&strategyId=4793137&schoolId=9341&source=cloud&sourceCallBackUrl=https://uai.unipus.cn/app/cmgt/resource-detail/?backId=1793504265186&courseResourceId=20001221469";
 const log = (...a) => console.log(...a);
