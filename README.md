@@ -1,7 +1,7 @@
 # autolearn
 
 > 用 CDP 直接驱动浏览器，自动完成在线课程平台上的各类任务点（视频/音频/口语/上传/简答/阅读）。
-> 目前收录 **U校园（Unipus）**，架构按“多平台”设计，后续可继续加 `platforms/xxx`。
+> 目前已收录 **U校园（Unipus）** 与 **ICC 高教社数字课程**，架构按“多平台”设计，可继续加 `platforms/xxx`。
 
 ## 这是什么
 
@@ -25,11 +25,15 @@
 autolearn/
 ├── SKILL.md                     # 给 AI 智能体读的总入口（路由到具体平台）
 └── platforms/
-    └── unipus/                  # U校园
-        ├── SKILL.md             # 平台完整操作手册（含 21 节踩坑实录）
-        ├── reference/           # 接口/参数/题型速查
-        ├── scripts/             # 可直接跑的 .mjs 脚本
-        └── assets/              # 历史报告与统计
+    ├── unipus/                  # U校园
+    │   ├── SKILL.md             # 平台完整操作手册（含 21 节踩坑实录）
+    │   ├── reference/           # 接口/参数/题型速查
+    │   ├── scripts/            # 可直接跑的 .mjs 脚本
+    │   └── assets/              # 历史报告与统计
+    └── hep-icc/                 # ICC 高教社数字课程
+        ├── SKILL.md             # 平台手册（登录/验证码/微服务接口）
+        ├── reference/api.md     # 5 个接口的参数与字段
+        └── scripts/             # 进度扫描器
 ```
 
 ## 快速开始
