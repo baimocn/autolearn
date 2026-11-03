@@ -1,0 +1,10 @@
+import { connect, sleep } from "./utlib.mjs";
+const TID=process.env.TID||"84B74FE42AFBE800BB4140C151D85DA8";
+const READER="https://ucontent.unipus.cn/_ipublishpc_default/pc.html?cid=1837944375799767040&theme=3264FA&aitutorialId=34657&cloudCurriculaId=356008&strategyId=4793137&schoolId=9341&source=cloud&sourceCallBackUrl=https://uai.unipus.cn/app/cmgt/resource-detail/?backId=1793504265186&courseResourceId=20001221469";
+const HASH="#/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/courseware/u1/u1g2";
+const L=await connect(TID);
+const {cdp,sessionId}=L;
+await cdp.send("Page.navigate",{url:READER+HASH},sessionId);
+await sleep(6000);
+console.log("restored");
+L.cdp.close();
