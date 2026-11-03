@@ -7,7 +7,7 @@ import { execSync } from "node:child_process";
 const U=Number(process.argv[2]); const I=Number(process.argv[3]); const AUD=process.argv[4];
 const NOSUBMIT=process.argv.includes("--nosubmit");
 const CH={1:"7840f299-1cce-403e-9320-d6ddf613cebf",2:"2c3ad11f-a37e-4a64-ba6a-6cfa256cc6be",3:"5f975081-b8b7-4799-9d9c-b83a53423e4f",4:"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b",5:"bfb4fa0c-fbd4-436f-8b37-3b307810cf63",6:"1ed78c87-3e9c-4426-a2fb-4a155955a7bb",7:"bc8967a2-13b9-4a3f-a127-e368e228e9e5",8:"f8dc1090-7968-4eb7-b231-63da59732244"}[U];
-const BOOK="0iws4u_bQkCFpqmfcTvdAg",BV="VTqvEEI";
+const BOOK=(await import("./config.mjs")).BOOK,BV="VTqvEEI";
 const log=(...a)=>console.log(...a);
 // 音频时长 → 决定等待
 const DUR=Number(execSync(`ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "${AUD}"`).toString().trim());
