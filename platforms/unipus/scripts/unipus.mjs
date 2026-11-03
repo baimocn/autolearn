@@ -2,6 +2,7 @@
 // 设计：所有读取走 CDP executionContext（跨域 iframe 无阻碍）；所有点击走 CDP 可信鼠标事件
 import { attachPage, sleep } from "./cdp.mjs";
 import { findContentFrame, evalInFrame, collectContexts } from "./frame.mjs";
+import { BOOK as CFG_BOOK } from "./config.mjs";
 
 export class Book {
   constructor(cdp, page) {
@@ -48,7 +49,7 @@ export class Book {
   }
 
   /** 切换到指定章节（章节 id），并等待渲染完成 */
-  async gotoChapter(chapterId, bookId = "0iws4u_bQkCFpqmfcTvdAg") {
+  async gotoChapter(chapterId, bookId = CFG_BOOK) {
     const url = `https://ipub.unipus.cn/learner/textbook/book/${bookId}/chapter/${chapterId}?bookVersionNumber=VTqvEEI`;
     await this.page.send("Page.navigate", { url, frameId: this.frameId });
     await sleep(800);
