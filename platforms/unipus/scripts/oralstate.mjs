@@ -1,0 +1,10 @@
+import { connect, sleep } from "./utlib.mjs";
+const I=Number(process.argv[2]||2);
+const TID=process.env.TID||"594407D5EFAB3168E687104616F51088";
+const L=await connect(TID);
+const {ev,frames}=L;
+const tb=(await frames()).find(f=>/textbook\/book/.test(f.url)&&f.ctx);
+const s=await ev(`(()=>{const b=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')][${I}];
+  return {t:(b.innerText||'').replace(/\\s+/g,' ').slice(0,220), ctx:!!window.__ttsCtx, patched:!!window.__gumPatched};})()`,tb.ctx);
+console.log(JSON.stringify(s));
+L.cdp.close();
