@@ -1,0 +1,554 @@
+AI改写
+5
+1
+7
+10
+8
+3
+4
+2
+9
+6
+Q
+æ
+编写中
+技能点
+new
+名称变更
+删除
+评阅
+扩写
+缩写
+润色
+写作助手
+试题设置
+未发布
+已下架
+已发布
+推题得分率设置
+ZIP
+TXT
+T
+M D
+M
+En
+Unit test 8
+
+Part I Words and expressions (40 points)
+
+1. Words and phrases
+
+Choose the correct word to complete each of the following sentences.
+
+自动判题
+计分
+1.
+
+Due to climate change, farmers have to adapt to weather patterns that shift almost ________ throughout the year.
+
+A
+
+constantly
+
+B
+
+abruptly
+
+C
+
+periodically
+
+D
+
+selectively
+
+自动判题
+计分
+2.
+
+The reforestation project helped ________ some of the environmental degradation caused by illegal logging.
+
+A
+
+reverse
+
+B
+
+alter
+
+C
+
+offset
+
+D
+
+eliminate
+
+自动判题
+计分
+3.
+
+The agricultural researcher urged government officials not to ________ the release of findings that highlighted the ecological harm caused by overuse of chemical fertilizers.
+
+A
+
+distort
+
+B
+
+overstate
+
+C
+
+suppress
+
+D
+
+withdraw
+
+自动判题
+计分
+4.
+
+Using natural predators to control crop pests is a cost-effective ________ measure in sustainable agriculture.
+
+A
+
+preventive
+
+B
+
+resistant
+
+C
+
+reactive
+
+D
+
+responsive
+
+自动判题
+计分
+5.
+
+While crop rotation and soil tests are vital to farm work, the farmer believed that occasional experiments brought the real ________ to agricultural life.
+
+A
+
+rigidity
+
+B
+
+formality
+
+C
+
+spice
+
+D
+
+versatility
+
+自动判题
+计分
+6.
+
+To reach remote mountain farms, the agricultural relief team used helicopters to ________ emergency seed packages after the landslide.
+
+A
+
+collect
+
+B
+
+disperse
+
+C
+
+unload
+
+D
+
+allocate
+
+自动判题
+计分
+7.
+
+The agricultural engineers managed to ________ soil sensors beneath the top layer of farmland to monitor moisture and nutrient levels.
+
+A
+
+attach
+
+B
+
+embed
+
+C
+
+enforce
+
+D
+
+instill
+
+
+
+
+Select and fill in the correct expression to complete each of the following sentences.
+
+自动判题
+计分
+account for
+in line with
+feast on
+in effect
+be rooted in
+8.
+
+The country's agricultural policy is firmly 
+ national goals for carbon reduction and food security.
+
+自动判题
+计分
+account for
+in line with
+feast on
+in effect
+be rooted in
+9.
+
+These two staple crops 
+ the lion's share of the farm's annual revenue.
+
+自动判题
+计分
+account for
+in line with
+feast on
+in effect
+be rooted in
+10.
+
+During the harvest festival, local communities gather to 
+ seasonal dishes made from freshly picked produce.
+
+自动判题
+计分
+account for
+in line with
+feast on
+in effect
+be rooted in
+11.
+
+The regulation may seem flexible, but 
+, it limits the use of chemical fertilizers in protected areas.
+
+自动判题
+计分
+account for
+in line with
+feast on
+in effect
+be rooted in
+12.
+
+Many farming practices are believed to 
+ centuries of experience and deep respect for the natural environment.
+
+
+
+
+2. Technical terms
+
+Choose the correct explanation for each technical term.
+
+自动判题
+计分
+13.
+
+photosynthetic
+
+A
+
+Related to the chemical release of energy from nutrients inside living cells.
+
+B
+
+Related to the reflection of sunlight by leaves on the surface of a plant.
+
+C
+
+Related to how plants turn sunlight into usable chemical energy.
+
+D
+
+Related to how a plant changes direction in response to natural light.
+
+自动判题
+计分
+14.
+
+riboflavin
+
+A
+
+A fiber commonly found in grains that helps promote digestion.
+
+B
+
+A vitamin involved in energy metabolism across living organisms.
+
+C
+
+A plant hormone that plays a role in regulating flowering time.
+
+D
+
+A mineral often included in animal feed to support healthy growth.
+
+自动判题
+计分
+15.
+
+transpirational
+
+A
+
+Related to how plant roots absorb nutrients from the soil.
+
+B
+
+Related to the evaporation of water through leaf surfaces in plants.
+
+C
+
+Related to the structural change in plants caused by long-term heat exposure.
+
+D
+
+Describing how minerals and water move upward in plant stems.
+
+自动判题
+计分
+16.
+
+metabolism
+
+A
+
+The series of chemical reactions that sustain life within an organism.
+
+B
+
+The process by which plants absorb and store nutrients from the soil.
+
+C
+
+The way an organism evolves to adapt to its surroundings over time.
+
+D
+
+The natural rate at which a species reproduces under stable conditions.
+
+自动判题
+计分
+17.
+
+phytochemical
+
+A
+
+Related to compounds primarily responsible for leaf color variations in plants.
+
+B
+
+Related to chemical fertilizers made from processed plant extracts.
+
+C
+
+Related to natural plant compounds often associated with nutritional benefits.
+
+D
+
+Related to synthetic substance added to increase plant resistance to pests.
+
+自动判题
+计分
+18.
+
+carbon-based compound
+
+A
+
+A plastic material used in agriculture for covering fields and conserving moisture.
+
+B
+
+A mineral-based additive used to improve soil structure and reduce acidity.
+
+C
+
+A radioactive element used in archaeological dating and geological studies.
+
+D
+
+A chemical substance made primarily of carbon and found in living organisms.
+
+自动判题
+计分
+19.
+
+soil organic matter
+
+A
+
+The mixture of clay, silt, and sand that determines the texture of soil.
+
+B
+
+The remains of fertilizers and chemicals left in the soil after cultivation.
+
+C
+
+The decomposed plant and animal materials that improve soil health.
+
+D
+
+The natural minerals in soil that provide essential nutrients to crops.
+
+自动判题
+计分
+20.
+
+herbal medicine
+
+A
+
+A branch of pharmaceutical chemistry focused on synthesizing new drugs.
+
+B
+
+A treatment system that relies on laboratory-manufactured chemicals.
+
+C
+
+A form of traditional medicine that uses plant-derived substances for healing.
+
+D
+
+A dietary supplement designed to enhance metabolic function in the body.
+
+
+
+
+Part II Reading comprehension (30 points)
+
+Read the passage and choose the best answer to each question.
+
+自动判题
+计分
+
+With foodborne illnesses causing over nine million infections each year in the U.S., many of which are potentially caused by contaminated produce, farmers and consumers alike are concerned about figuring out how to bring this number down. But one often overlooked method is the fertilizer used to nourish crops and grow food that feeds people across the country and world.
+
+
+
+
+New research from an agricultural experiment at the University of California, Davis, finds that using compost, even animal-based composts that farmers sometimes shy away from, can lead to healthier soils and potentially fewer pathogens when compared to other conventional fertilizers, which are manufactured from minerals and atmospheric gases.
+
+
+
+
+Surprisingly, manure and compost have been viewed as the cause of potential illness, but rarely a cure. Studies have found that the use of raw manure may be related to the presence of foodborne pathogens, and farmers are understandably concerned about this risk. To suppress outbreaks of foodborne disease, farmers have limited the use of compost and manure to prevent pathogens such as salmonella and listeria from contaminating produce.
+
+
+
+
+In this new study led by UC Davis postdoc Naresh Devarajan, researchers leveraged a long-term agricultural experiment to compare bacterial communities between organic and conventional soil management practices. "There is increasing scientific evidence that soil microbes are important to build a healthy soil," says Devarajan. If the compost adds more nutrients for healthy soil microbes, they can flourish and potentially out-compete pathogens for resources.
+
+
+
+
+For the experiment, the scientists applied four different treatments to fields of corn that were various combinations of conventional fertilizer and two other organic practices, in this case, applying composted poultry litter and using cover crops. Cover crops are planted not to harvest but to help with soil erosion and add nutrients to the soil. Poultry litter is a mix of chicken manure, spilled feed, and other poultry-house materials that contain nutrients such as nitrogen and phosphorus. When composted, it reaches a high temperature that can kill pathogens.
+
+
+
+
+The results showed that adding compost and cover crops increased nutrients like phosphorus and nitrate in the soil; this increase changed the bacterial communities. Specifically, harmful bacteria like listeria and salmonella were both suppressed in soils that had compost and cover crops added.
+
+
+
+
+The study suggests that animal-based composts do not promote pathogen survival and may even promote soil bacterial communities that suppress pathogens. However, the underlying mechanism for how exactly the soil microbes can work as a "biocontrol" agent needs to be further studied.
+
+
+
+
+Commercial or synthetic fertilizers are readily available and effective, but they have downsides. "A lot of greenhouse gas production is from the production of nitrogen fertilizer," says a microbial ecologist at Colorado State University. "We should be looking for every opportunity to put our waste to work."
+
+21.
+
+What is the main idea of the passage?
+
+A
+
+The drawbacks of synthetic fertilizers and their impact on foodborne pathogens.
+
+B
+
+Compost as an alternative to improve soil and reduce harmful pathogens.
+
+C
+
+The growing use of composted manure to prevent bacterial outbreaks.
+
+D
+
+Health and safety risks of compost use in modern agriculture.
+
+自动判题
+计分
+
+With foodborne illnesses causing over nine million infections each year in the U.S., many of which are potentially caused by contaminated produce, farmers and consumers alike are concerned about figuring out how to bring this number down. But one often overlooked method is the fertilizer used to nourish crops and grow food that feeds people across the country and world.
+
+
+
+
+New research from an agricultural experiment at the University of California, Davis, finds that using compost, even animal-based composts that farmers sometimes shy away from, can lead to healthier soils and potentially fewer pathogens when compared to other conventional fertilizers, which are manufactured from minerals and atmospheric gases.
+
+
+
+
+Surprisingly, manure and compost have been viewed as the cause of potential illness, but rarely a cure. Studies have found that the use of raw manure may be related to the presence of foodborne pathogens, and farmers are understandably concerned about this risk. To suppress outbreaks of foodborne disease, farmers have limited the use of compost and manure to prevent pathogens such as salmonella and listeria from contaminating produce.
+
+
+
+
+In this new study led by UC Davis postdoc Naresh Devarajan, researchers leveraged a long-term agricultural experiment to compare bacterial communities between organic and conventional soil management practices. "There is increasing scientific evidence that soil microbes are important to build a healthy soil," says Devarajan. If the compost adds more nutrients for healthy soil microbes, they can flourish and potentially out-compete pathogens for resources.
+
+
+
+
+For the experiment, the scientists applied four different treatments to fields of corn that were various combinations of conventional fertilizer and two other organic practices, in this case, applying composted poultry litter and using cover crops. Cover crops are planted not to harvest but to help with soil erosion and add nutrients to the soil. Poultry litter is a mix of chicken manure, spilled feed, and other poultry-house materials that contain nutrients such as nitrogen and phosphorus. When composted, it reaches a high temperature that can kill pathogens.
+
+
+
+
+The results showed that adding compost and cover crops increased nutrients like phosphorus and nitrate in the soil; this increase changed the bacterial communities. Specifically, harmful bacteria like listeria and salmonella were both suppressed in soils that had compost and cover crops added.
+
+
+
+
+The study suggests that animal-based composts do not promote pathogen survival and may even promote soil bacterial communities that suppress pathogens. However, the underlying mechanism for how exactly the soil microbes can work as a "biocontrol" agent needs to be further studied.
+
+
+
+
+Commercial or synthetic fertilizers are readily available and effective, but they have downsides. "A lot of greenhouse gas production is from the production of nitrogen fertilizer," says a microbial ecologist at Colorado State University. "We should be looking for every opportunity to put our waste to work."
+
+22.
+
+W

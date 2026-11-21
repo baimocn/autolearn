@@ -1,0 +1,31 @@
+{
+ "passInfo": {
+  "src": "SPA-response",
+  "unit": "u4",
+  "found": true,
+  "state": {
+   "pass": 0,
+   "pass2": 0,
+   "perm": 1
+  },
+  "pass": 0,
+  "pass2": 0,
+  "tab": "task",
+  "captured": 9
+ },
+ "chap": "6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b",
+ "healthy": false,
+ "dom": {
+  "blocks": 26,
+  "nonempty": 0,
+  "statuses": [
+   "loading"
+  ],
+  "targetStatus": "loading",
+  "targetLen": 0,
+  "targetFileInputs": 0,
+  "bodyLen": 15812,
+  "hasLimit": false
+ },
+ "shot": "shots/U4-u4g573.png"
+}

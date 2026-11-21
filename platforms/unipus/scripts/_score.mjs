@@ -1,0 +1,10 @@
+import { connect, sleep } from "./utlib.mjs";
+const tabs = await (await fetch("http://127.0.0.1:9222/json/list")).json();
+const t = tabs.find(x => /resource-detail/.test(x.url));
+const L = await connect(t.id);
+const { ev, cdp, sessionId } = L;
+await cdp.send("Page.reload", {}, sessionId).catch(()=>{});
+await sleep(9000);
+const r = await ev(`(()=>{const t=document.body.innerText.replace(/\s+/g,' ');const m=t.match(/当前成绩[:：]?\s*([\d.]+)/);const k=t.match(/教程学习成绩\s*25%\s*(\d+\/\d+)/);const time=t.match(/必修学习时长\s*25%\s*([\d:]+)/);return {score:m?m[1]:null, tasks:k?k[1]:null, time:time?time[1]:null, snippet:t.slice(120,600)};})()`).catch(e=>String(e));
+console.log(JSON.stringify(r,null,1));
+cdp.close();

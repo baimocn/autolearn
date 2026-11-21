@@ -1,0 +1,21 @@
+import { CDP, sleep } from "./cdp.mjs";
+import { connect } from "./utlib.mjs";
+import { READER, COURSE } from "./reader.mjs";
+const U=process.argv[2]||4; const NODE=process.argv[3];
+const ver=await(await fetch("http://127.0.0.1:9222/json/version")).json();
+const boot=await CDP.connect(ver.webSocketDebuggerUrl);
+for(const t of (await(await fetch("http://127.0.0.1:9222/json/list")).json()).filter(t=>/ucontent/.test(t.url)))await boot.send("Target.closeTarget",{targetId:t.id}).catch(()=>{});
+await sleep(700);
+const r=await boot.send("Target.createTarget",{url:`${READER}#/${COURSE}/courseware/u${U}/${NODE}`});
+boot.close();
+await sleep(15000);
+const L=await connect(r.targetId);
+const {ev,frames}=L;
+let tb=null;
+for(let k=0;k<50&&!tb;k++){tb=(await frames()).find(f=>f.url.includes("textbook/book")&&f.ctx);if(tb&&tb.url.includes("chapter"))break;await sleep(1000);}
+console.log("chapter:",tb?tb.url.slice(73,125):"none");
+const n=await ev(`document.querySelectorAll('[data-lexical-node-type="quiz-paper-link"]').length`,tb.ctx).catch(()=>0);
+const b=await ev(`document.querySelectorAll('div.editor-question-block.questionBlockNode').length`,tb.ctx).catch(()=>0);
+console.log("cards:",n,"blocks:",b);
+const {data}=await L.cdp.send("Page.captureScreenshot",{format:"png"},r.targetId?undefined:L.sessionId).catch(()=>null);
+L.cdp.close();

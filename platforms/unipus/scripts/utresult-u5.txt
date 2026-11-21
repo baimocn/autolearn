@@ -1,0 +1,555 @@
+AI改写
+5
+1
+7
+10
+8
+3
+4
+2
+9
+6
+Q
+æ
+编写中
+技能点
+new
+名称变更
+删除
+评阅
+扩写
+缩写
+润色
+写作助手
+试题设置
+未发布
+已下架
+已发布
+推题得分率设置
+ZIP
+TXT
+T
+M D
+M
+En
+Unit test 5
+
+Part I Words and expressions (40 points)
+
+1. Words and phrases
+
+Choose the correct word to complete each of the following sentences.
+
+自动判题
+计分
+1.
+
+Seeking better housing and public services, the village community agreed to ________ to a nearby residential complex designed under the urban-rural integration plan.
+
+A
+
+transfer
+
+B
+
+relocate
+
+C
+
+emigrate
+
+D
+
+commute
+
+自动判题
+计分
+2.
+
+During the ________ of the irrigation system, the team had to connect over 50 steel pipes and dozens of sprinkler heads.
+
+A
+
+examination
+
+B
+
+delivery
+
+C
+
+assembly
+
+D
+
+inspection
+
+自动判题
+计分
+3.
+
+Villages today are ________ different from what they were a decade ago, with dramatic changes in housing and farming practices.
+
+A
+
+starkly
+
+B
+
+subtly
+
+C
+
+barely
+
+D
+
+slightly
+
+自动判题
+计分
+4.
+
+To attract more tourists, the town highlighted its cultural ________ including locally produced food and crafts.
+
+A
+
+exhibitions 
+
+B
+
+specialties
+
+C
+
+artifacts 
+
+D
+
+legacy
+
+自动判题
+计分
+5.
+
+After finishing their morning work in the fields, the farmers rested under a tree beside a small pond, enjoying the ________ atmosphere of the countryside.
+
+A
+
+tranquil
+
+B
+
+vibrant
+
+C
+
+cozy
+
+D
+
+remote
+
+自动判题
+计分
+6.
+
+The new measures aim to ________ the confidence of local artisans and support the growth of small rural producers.
+
+A
+
+revitalize
+
+B
+
+bolster
+
+C
+
+preserve
+
+D
+
+revive
+
+自动判题
+计分
+7.
+
+To promote cultural tourism, the traditional village recently completed a large-scale ________ project to upgrade houses while maintaining their historic charm.
+
+A
+
+restoration
+
+B
+
+renovation
+
+C
+
+modernization
+
+D
+
+development 
+
+
+
+
+Select and fill in the correct expression to complete each of the following sentences.
+
+自动判题
+计分
+close off
+breathe new life into
+the other way around
+align with
+hustle and bustle
+8.
+
+Local innovators hope to 
+ the aging fishing town by launching seaweed farms and marine education programs.
+
+自动判题
+计分
+close off
+breathe new life into
+the other way around
+align with
+hustle and bustle
+9.
+
+The company's marketing strategies must 
+ the mission of supporting organic and fair-trade farming.
+
+自动判题
+计分
+close off
+breathe new life into
+the other way around
+align with
+hustle and bustle
+10.
+
+He assumed the villagers would struggle with new technology, but it turned out to be 
+.
+
+自动判题
+计分
+close off
+breathe new life into
+the other way around
+align with
+hustle and bustle
+11.
+
+Having spent a decade in the fast-paced tech industry, he was finally ready to leave behind the 
+ and start a life on a remote farm.
+
+自动判题
+计分
+close off
+breathe new life into
+the other way around
+align with
+hustle and bustle
+12.
+
+Due to safety concerns during the wildfire season, the forestry bureau decided to 
+ several remote camping areas.
+
+
+
+
+2. Technical terms
+
+Choose the correct explanation for each technical term.
+
+自动判题
+计分
+13.
+
+recyclable material
+
+A
+
+Material that requires special chemical treatment before disposal.
+
+B
+
+Material that can only be reprocessed once.
+
+C
+
+Material that can be processed and used again in production.
+
+D
+
+Material that naturally decomposes within one year.
+
+自动判题
+计分
+14.
+
+rural depopulation
+
+A
+
+Temporary seasonal movement of rural workers.
+
+B
+
+Gradual decrease in rural population numbers.
+
+C
+
+Government-led relocation of rural communities.
+
+D
+
+Periodic fluctuation in rural birth rates.
+
+自动判题
+计分
+15.
+
+symbiotic relationship
+
+A
+
+Temporary interaction between two organisms.
+
+B
+
+A relationship where both organisms negatively affect each other.
+
+C
+
+Long-term biological interaction benefiting both parties.
+
+D
+
+Random encounter between different species.
+
+自动判题
+计分
+16.
+
+vernacular house
+
+A
+
+A mobile house designed for nomadic communities.
+
+B
+
+A house with modern design and facilities.
+
+C
+
+A house built in traditional local styles using native materials.
+
+D
+
+A house made entirely from imported materials.
+
+自动判题
+计分
+17.
+
+abandoned farmland
+
+A
+
+Agricultural land that is intentionally left fallow for one season.
+
+B
+
+Agricultural land temporarily left unused as part of crop rotation.
+
+C
+
+Agricultural land that is no longer maintained and cultivated.
+
+D
+
+Agricultural land that is protected for experimental crops.
+
+自动判题
+计分
+18.
+
+rural revitalization
+
+A
+
+A method of increasing urban boundaries into rural areas to expand the land area.
+
+B
+
+An approach to improving the economy, infrastructure, and quality of life in rural areas.
+
+C
+
+A shift from farming to industrial production in small towns to improve their economy.
+
+D
+
+A reduction in farming activity to preserve biodiversity to balance the eco-environment.
+
+自动判题
+计分
+19.
+
+rice paddy
+
+A
+
+A dry plot of land used for wheat cultivation.
+
+B
+
+A reservoir used to store rainwater for a rice field.
+
+C
+
+A flat, often flooded field used to grow rice.
+
+D
+
+A terraced field with controlled irrigation.
+
+自动判题
+计分
+20.
+
+ecotourism
+
+A
+
+Luxury tours with minimal environmental regulations.
+
+B
+
+Travel to remote areas, primarily focused on visiting natural attractions.
+
+C
+
+Responsible travel that minimizes impact and supports conservation.
+
+D
+
+Guided tours in agricultural areas benefiting local communities.
+
+
+
+
+Part II Reading comprehension (30 points)
+
+Read the passage and choose the best answer to each question or sentence.
+
+自动判题
+计分
+
+The world tends to think of Italy as the modern inheritor of ancient Rome, the national home of pizza, espresso, and Leonardo da Vinci. But long before it was a unified nation, the boot-shaped peninsula was a loose collection of towns and villages, borghi in Italian, with wildly varied architecture, topography, and cultural histories. In picturesque towns in the north, Italian is often the third language spoken after German and Ladin. The central region of Abruzzo has a medieval village long known for its wool trade and another with a church built on the ruins of a Roman-era Temple of Jupiter.
+
+
+
+
+Until the 20th century, most Italians lived in such rural hamlets, which were often rich in history and natural beauty but short on economic opportunity and social services. When industrialization drove massive migration to the cities, thousands of borghi were left behind. Populations plummeted. Whole towns fell into disrepair or worse, further pummeled by natural disasters. Today, more than 5,000 borghi are considered at risk of depopulation, according to the National Association of Italian Municipalities, with some 2,000 on the brink of total abandonment.
+
+
+
+
+In recent years, though, artists, agrarian dreamers, and entrepreneurs have started driving a return to Italy's neglected rural villages. New eco-tourism ventures draw visitors and new transplants to remote locales. Crowdfunded cooperatives help newcomers open grocery stores, arts centers, co-working spaces, and a pizzeria. In 61 towns across the country, local governments will even sell you a house for €1 – you don't have to be Italian, but you often have to prove you have plans to restore it.
+
+
+
+
+This highly publicized initiative has its charms, but the results so far have been surprisingly modest given contemporary enthusiasm for remodeling. The town of Gangi, in Sicily, is considered an exemplary success, yet only 13 such houses have sold since the program began in 2009, a rate of just one a year.
+
+
+
+
+Still, a recent opinion poll found that the winds are shifting: Two-thirds of people under 39 living in Italy's borghi say they hope to remain there, suggesting the reversal of a trend going back 70 or so years. Not long ago, the Calabrian village of Pentedattilo, originally a seventh-century B.C. Greek colony, saw the arrival of its first new resident in nearly 40 years: Makandjan Thunkara, a young refugee from Mali, is working with the town's only other resident, Rossella Aquilanti, a former postwoman, to restore an abandoned farm.
+
+
+
+
+While the revival remains fragile, these efforts reflect a broader reimagining of rural life. Blending tradition with innovation, Italy's borghi may yet offer a model for preserving heritage in an age of urbanization – proving that even forgotten places can find new purpose.
+
+21.
+
+What is the main idea of the passage?
+
+A
+
+Italy's countryside has suffered irreversible damage from modernization.
+
+B
+
+Many of Italy's rural towns are turning into tourist resorts.
+
+C
+
+Some rural Italian villages are experiencing a quiet revival led by newcomers.
+
+D
+
+The Italian government has successfully repopulated abandoned villages through house sales.
+
+自动判题
+计分
+
+The world tends to think of Italy as the modern inheritor of ancient Rome, the national home of pizza, espresso, and Leonardo da Vinci. But long before it was a unified nation, the boot-shaped peninsula was a loose collection of towns and villages, borghi in Italian, with wildly varied architecture, topography, and cultural histories. In picturesque towns in the north, Italian is often the third language spoken after German and Ladin. The central region of Abruzzo has a medieval village long known for its wool trade and another with a church built on the ruins of a Roman-era Temple of Jupiter.
+
+
+
+
+Until the 20th century, most Italians lived in such rural hamlets, which were often rich in history and natural beauty but short on economic opportunity and social services. When industrialization drove massive migration to the cities, thousands of borghi were left behind. Populations plummeted. Whole towns fell into disrepair or worse, further pummeled by natural disasters. Today, more than 5,000 borghi are considered at risk of depopulation, according to the National Association of Italian Municipalities, with some 2,000 on the brink of total abandonment.
+
+
+
+
+In recent years, though, artists, agrarian dreamers, and entrepreneurs have started driving a return to Italy's neglected rural villages. New eco-tourism ventures draw visitors and new transplants to remote locales. Crowdfunded cooperatives help newcomers open grocery stores, arts centers, co-working spaces, and a pizzeria. In 61 towns across the country, local governments will even sell you a house for €1 – you don't have to be Italian, but you often have to prove you have plans to restore it.
+
+
+
+
+This highly publicized initiative has its charms, but the results so far have been surprisingly modest given contemporary enthusiasm for remodeling. The town of Gangi, in Sicily, is considered an exemplary success, yet only 13 such houses have sold since the program began in 2009, a rate of just one a year.
+
+
+
+
+Still, a recent opinion poll found that the winds are shifting: Two-thirds of people under 39 living in Italy's borghi say they hope to remain there, suggesting the reversal of a trend going back 70 or so years. Not long ago, the Calabrian village of Pentedattilo, originally a seventh-century B.C. Greek colony, saw the arrival of its first new resident in nearly 40 years: Makandjan Thunkara, a young refugee from Mali, is working with the town's only other resident, Rossella Aquilanti, a former postwoman, to restore an abandoned farm.
+
+
+
+
+While the revival remains fragile, these efforts reflect a broader reimagining of rural life. Blending tradition with innovation, Italy's borghi may yet offer a model for preserving heritage in an age of urbanization – proving that even forgotten places can find new purpose.
+
+22.
+
+According to the passage, what caused the decline of Italy's borghi in the 20th century?
+
+A
+
+Declining cultural traditions and limited local economic opportunities.
+
+B
+
+Changes in government policies that shifted focus away from rural development.
+
+C
+
+The rise of tourism in urban and coastal areas that diverted attention from villages.
+
+D
+
+Migration driven by industrialization and repeated natural disasters.
+
+自动判题
+计分
+
+The world tends to think of Italy as the modern inheritor of ancient Rome, the national home of pizza, espresso, and Leonardo da Vinci. But long before it was a unified nation, the boot-shaped peninsula was a loose collection of towns and villages, borghi in Italian, with wildly varied architecture, t

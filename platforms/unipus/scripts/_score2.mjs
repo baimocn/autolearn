@@ -1,0 +1,14 @@
+import { connect, sleep } from "./utlib.mjs";
+import fs from "node:fs";
+const tabs = await (await fetch("http://127.0.0.1:9222/json/list")).json();
+const t = tabs.find(x => /resource-detail/.test(x.url)) || tabs.find(x=>/uai\.unipus/.test(x.url));
+console.log("tab", t.url);
+const L = await connect(t.id);
+const { ev, cdp, sessionId } = L;
+const u = await ev(`(()=>location.href)`).catch(e=>"ERR"+e);
+console.log("href", u);
+const txt = await ev(`(()=>document.body?document.body.innerText.replace(/\s+/g,' ').slice(0,800):'NOBODY')()`).catch(e=>"ERR"+e);
+console.log(txt);
+const { data } = await cdp.send("Page.captureScreenshot", { format: "png" }, sessionId);
+fs.writeFileSync("score-state.png", Buffer.from(data, "base64"));
+cdp.close();

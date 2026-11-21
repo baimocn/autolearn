@@ -1,0 +1,13 @@
+import { connect } from "./utlib.mjs";
+import fs from "node:fs";
+const tabs=await(await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd=tabs.find(t=>/ucontent\.unipus\.cn/.test(t.url));
+const L=await connect(rd.id);const {ev,frames,cdp}=L;
+const tb=(await frames()).find(f=>/textbook\/book/.test(f.url)&&f.ctx);
+const t=await ev(`(()=>{const b=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')][18];return (b.innerText||'').replace(/[ ]+/g,' ');})()`,tb.ctx).catch(e=>String(e));
+const i=t.indexOf('答案');
+const ans=i>=0?t.slice(i+2).trim():t;
+fs.writeFileSync('u7-answer-full.txt',ans);
+console.log('answer len',ans.length);
+console.log(ans.slice(-600));
+cdp.close();

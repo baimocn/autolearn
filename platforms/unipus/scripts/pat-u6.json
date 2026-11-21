@@ -1,0 +1,116 @@
+{
+ "0": {
+  "r": "hasctrl-nosubmit",
+  "kind": "choice",
+  "len": 1275
+ },
+ "1": {
+  "r": "full",
+  "score": "100"
+ },
+ "2": {
+  "r": "media",
+  "len": 2970
+ },
+ "3": {
+  "r": "media",
+  "len": 1884
+ },
+ "4": {
+  "r": "submitted",
+  "score": null
+ },
+ "5": {
+  "r": "done",
+  "kind": "choice",
+  "score": null
+ },
+ "6": {
+  "r": "full",
+  "score": "100"
+ },
+ "7": {
+  "r": "submitted",
+  "score": null
+ },
+ "8": {
+  "r": "hasctrl-nosubmit",
+  "kind": "dig",
+  "len": 3135
+ },
+ "9": {
+  "r": "submitted",
+  "score": null
+ },
+ "10": {
+  "r": "hasctrl-nosubmit",
+  "kind": "choice",
+  "len": 2400
+ },
+ "11": {
+  "r": "done",
+  "kind": "choice",
+  "score": "98"
+ },
+ "12": {
+  "r": "done",
+  "kind": "choice",
+  "score": null
+ },
+ "13": {
+  "r": "done",
+  "kind": "choice",
+  "score": "27.1"
+ },
+ "14": {
+  "r": "full",
+  "score": "100"
+ },
+ "15": {
+  "r": "done",
+  "kind": "choice",
+  "score": "0"
+ },
+ "16": {
+  "r": "submitted",
+  "score": null
+ },
+ "17": {
+  "r": "hasctrl-nosubmit",
+  "kind": "dig",
+  "len": 3245
+ },
+ "18": {
+  "r": "media",
+  "len": 767
+ },
+ "19": {
+  "r": "media",
+  "len": 1853
+ },
+ "20": {
+  "r": "media",
+  "len": 1136
+ },
+ "21": {
+  "r": "media",
+  "len": 1307
+ },
+ "22": {
+  "r": "full",
+  "score": "100"
+ },
+ "23": {
+  "r": "full",
+  "score": "100"
+ },
+ "24": {
+  "r": "hasctrl-nosubmit",
+  "kind": "choice",
+  "len": 1354
+ },
+ "25": {
+  "r": "submitted",
+  "score": null
+ }
+}

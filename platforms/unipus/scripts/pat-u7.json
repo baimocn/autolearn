@@ -1,0 +1,117 @@
+{
+ "0": {
+  "r": "done",
+  "kind": "area",
+  "score": null
+ },
+ "1": {
+  "r": "done",
+  "kind": "fill",
+  "score": null
+ },
+ "2": {
+  "r": "text",
+  "len": 204
+ },
+ "3": {
+  "r": "text",
+  "len": 159
+ },
+ "4": {
+  "r": "submitted",
+  "score": null
+ },
+ "5": {
+  "r": "done",
+  "kind": "choice",
+  "score": null
+ },
+ "6": {
+  "r": "done",
+  "kind": "fill",
+  "score": null
+ },
+ "7": {
+  "r": "done",
+  "kind": "fill",
+  "score": null
+ },
+ "8": {
+  "r": "text",
+  "len": 186
+ },
+ "9": {
+  "r": "text",
+  "len": 129
+ },
+ "10": {
+  "r": "done",
+  "kind": "area",
+  "score": null
+ },
+ "11": {
+  "r": "done",
+  "kind": "area",
+  "score": null
+ },
+ "12": {
+  "r": "done",
+  "kind": "fill",
+  "score": null
+ },
+ "13": {
+  "r": "done",
+  "kind": "area",
+  "score": null
+ },
+ "14": {
+  "r": "done",
+  "kind": "fill",
+  "score": null
+ },
+ "15": {
+  "r": "done",
+  "kind": "area",
+  "score": null
+ },
+ "16": {
+  "r": "submitted",
+  "score": null
+ },
+ "17": {
+  "r": "done",
+  "kind": "fill",
+  "score": null
+ },
+ "18": {
+  "r": "upload",
+  "len": 88
+ },
+ "19": {
+  "r": "text",
+  "len": 157
+ },
+ "20": {
+  "r": "text",
+  "len": 154
+ },
+ "21": {
+  "r": "done",
+  "kind": "fill",
+  "score": null
+ },
+ "22": {
+  "r": "done",
+  "kind": "fill",
+  "score": null
+ },
+ "23": {
+  "r": "done",
+  "kind": "area",
+  "score": null
+ },
+ "24": {
+  "r": "submitted",
+  "score": null
+ }
+}

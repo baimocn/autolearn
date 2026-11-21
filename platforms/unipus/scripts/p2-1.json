@@ -1,0 +1,131 @@
+{
+ "0": {
+  "r": "done",
+  "score": null,
+  "kind": "area",
+  "note": "noans"
+ },
+ "1": {
+  "r": "done",
+  "score": null,
+  "kind": "fill",
+  "note": "noans"
+ },
+ "2": {
+  "r": "media",
+  "len": 178
+ },
+ "3": {
+  "r": "text",
+  "len": 159
+ },
+ "4": {
+  "r": "submitted",
+  "score": null
+ },
+ "5": {
+  "r": "done",
+  "score": null,
+  "kind": "choice",
+  "note": "noans"
+ },
+ "6": {
+  "r": "done",
+  "score": null,
+  "kind": "fill",
+  "note": "noans"
+ },
+ "7": {
+  "r": "done",
+  "score": null,
+  "kind": "fill",
+  "note": "noans"
+ },
+ "8": {
+  "r": "text",
+  "len": 186
+ },
+ "9": {
+  "r": "text",
+  "len": 129
+ },
+ "10": {
+  "r": "done",
+  "score": null,
+  "kind": "area",
+  "note": "noans"
+ },
+ "11": {
+  "r": "done",
+  "score": null,
+  "kind": "area",
+  "note": "noans"
+ },
+ "12": {
+  "r": "done",
+  "score": null,
+  "kind": "fill",
+  "note": "noans"
+ },
+ "13": {
+  "r": "done",
+  "score": null,
+  "kind": "area",
+  "note": "noans"
+ },
+ "14": {
+  "r": "done",
+  "score": null,
+  "kind": "fill",
+  "note": "noans"
+ },
+ "15": {
+  "r": "done",
+  "score": null,
+  "kind": "area",
+  "note": "noans"
+ },
+ "16": {
+  "r": "submitted",
+  "score": null
+ },
+ "17": {
+  "r": "done",
+  "score": null,
+  "kind": "fill",
+  "note": "noans"
+ },
+ "18": {
+  "r": "upload",
+  "len": 88
+ },
+ "19": {
+  "r": "text",
+  "len": 157
+ },
+ "20": {
+  "r": "text",
+  "len": 154
+ },
+ "21": {
+  "r": "done",
+  "score": null,
+  "kind": "fill",
+  "note": "noans"
+ },
+ "22": {
+  "r": "done",
+  "score": null,
+  "kind": "fill",
+  "note": "noans"
+ },
+ "23": {
+  "r": "done",
+  "score": null,
+  "kind": "area",
+  "note": "noans"
+ },
+ "24": {
+  "r": "none"
+ }
+}

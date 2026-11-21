@@ -1,0 +1,107 @@
+{
+ "0": {
+  "r": "submitted",
+  "score": null
+ },
+ "1": {
+  "r": "done",
+  "kind": "choice",
+  "score": null
+ },
+ "2": {
+  "r": "text",
+  "len": 149
+ },
+ "3": {
+  "r": "text",
+  "len": 214
+ },
+ "4": {
+  "r": "text",
+  "len": 126
+ },
+ "5": {
+  "r": "submitted",
+  "score": null
+ },
+ "6": {
+  "r": "submitted",
+  "score": null
+ },
+ "7": {
+  "r": "submitted",
+  "score": null
+ },
+ "8": {
+  "r": "submitted",
+  "score": null
+ },
+ "9": {
+  "r": "submitted",
+  "score": null
+ },
+ "10": {
+  "r": "submitted",
+  "score": null
+ },
+ "11": {
+  "r": "submitted",
+  "score": null
+ },
+ "12": {
+  "r": "submitted",
+  "score": null
+ },
+ "13": {
+  "r": "submitted",
+  "score": null
+ },
+ "14": {
+  "r": "submitted",
+  "score": null
+ },
+ "15": {
+  "r": "submitted",
+  "score": null
+ },
+ "16": {
+  "r": "done",
+  "kind": "choice",
+  "score": null
+ },
+ "17": {
+  "r": "text",
+  "len": 188
+ },
+ "18": {
+  "r": "text",
+  "len": 121
+ },
+ "19": {
+  "r": "text",
+  "len": 140
+ },
+ "20": {
+  "r": "text",
+  "len": 701
+ },
+ "21": {
+  "r": "done",
+  "kind": "choice",
+  "score": null
+ },
+ "22": {
+  "r": "done",
+  "kind": "area",
+  "score": null
+ },
+ "23": {
+  "r": "done",
+  "kind": "area",
+  "score": null
+ },
+ "24": {
+  "r": "submitted",
+  "score": null
+ }
+}

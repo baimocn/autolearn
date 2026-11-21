@@ -1,0 +1,108 @@
+{
+ "healthy": true,
+ "probeLast": {
+  "blocks": 26,
+  "nonempty": 0,
+  "targetLen": 6920
+ },
+ "net": [
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/readingtime/heartbeat",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\"}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"DNWML0i0CFSx5Hqb\",\"nodeType\":\"base-paragraph\",\"a\":1794356453741,\"b\":1794356457760}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"mfRro4vX1gW9NiF6\",\"nodeType\":\"base-paragraph\",\"a\":1794356453741,\"b\":1794356457760}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"CfISBW5SvGKc9YGI\",\"nodeType\":\"h1\",\"a\":1794356453741,\"b\":1794356457760}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"MpGb9VzZTnz1cPjt\",\"nodeType\":\"collapsible-block\",\"a\":1794356453741,\"b\":1794356457760}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"yCegJQP4PWvClNOK\",\"nodeType\":\"collapsible-block\",\"a\":1794356453741,\"b\":1794356457760}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"z7gTeKKFyNKOhsRV\",\"nodeType\":\"base-paragraph\",\"a\":1794356453741,\"b\":1794356457760}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"sRFo0MkMytuRdIEc\",\"nodeType\":\"base-paragraph\",\"a\":1794356453741,\"b\":1794356457760}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"PSuZxNgPxD72RgQY\",\"nodeType\":\"h1\",\"a\":1794356453741,\"b\":1794356457760}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"mUDW2AIDlwgTvp2K\",\"nodeType\":\"collapsible-block\",\"a\":1794356453741,\"b\":1794356457920}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"CfISBW5SvGKc9YGI\",\"nodeType\":\"h1\",\"a\":1794356461250,\"b\":1794356464999}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"MpGb9VzZTnz1cPjt\",\"nodeType\":\"collapsible-block\",\"a\":1794356461250,\"b\":1794356464999}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"CfISBW5SvGKc9YGI\",\"nodeType\":\"h1\",\"a\":1794356468312,\"b\":1794356473527}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"MpGb9VzZTnz1cPjt\",\"nodeType\":\"collapsible-block\",\"a\":1794356468312,\"b\":1794356473527}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/readingtime/heartbeat",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\"}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"mUDW2AIDlwgTvp2K\",\"nodeType\":\"collapsible-block\",\"a\":1794356453741,\"b\":1794356518069}"
+  }
+ ],
+ "dom": {
+  "nodeId": "mUDW2AIDlwgTvp2K",
+  "exists": true,
+  "hidden": false,
+  "contentLen": 7205,
+  "hasNewWords": true,
+  "hasAgitation": true,
+  "text": " New words ▲ agitation /8{dZI9teISn/ n. 1. [C, U] public argument or action for social or political change 煽动；鼓动；骚动 2. [U] when you are so anxious, nervous, or upset that you cannot think calmly 焦虑；紧张不安 ▲ amplify /9{mplI8faI/ vt. 1. (fml.) increase the effects or strength of sth. 增强 2. make sound lo"
+ },
+ "shot": "shots/U4-u4g598.png"
+}

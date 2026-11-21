@@ -1,0 +1,10 @@
+import { connect, sleep } from "./utlib.mjs";
+const tabs=await(await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd=tabs.find(t=>/ucontent/.test(t.url));
+const L=await connect(rd.id);
+await sleep(800);
+const {data}=await L.cdp.send("Page.captureScreenshot",{format:"png"},L.sessionId);
+const fs=await import("node:fs");
+fs.writeFileSync("now.png",Buffer.from(data,"base64"));
+console.log("saved now.png");
+L.cdp.close();

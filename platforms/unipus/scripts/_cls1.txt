@@ -1,0 +1,28 @@
+Unit 1 题块数: 27
+# 0 [  ]    .R item2                        自动判题 小题1 小题2 重新作答 Mark the loc
+# 1 [90]    .R item1                        自动判题 计分 得分： 90 分 重新作答 预览 Pre-a
+# 2 [  ]    S.                              计分 提交 1. What key factors cont
+# 3 [  ]    S.                              计分 提交 2. As mentioned in the v
+# 4 [  ]    ..                              Milpa: The Maya's living legac
+# 5 [77.8]  .R item1                        自动判题 计分 得分： 77.8 分 重新作答 预览 Wha
+# 6 [  ]    S. input11,item1                自动判题 计分 提交 1. What were the fa
+# 7 [  ]    .. area1,item1                  
+# 8 [  ]    .. input9,item1                 
+# 9 [  ]    ..                              
+#10 [  ]    .. area1,item1                  
+#11 [  ]    S. area1,item1                  提交 Provide your answer here. 0
+#12 [  ]    S. area1,item1                  计分 提交 Choose a specific farmin
+#13 [  ]    S. bank,input5,item1            自动判题 计分 提交 slash-and-burn prac
+#14 [  ]    S. area7,item7                  计分 小题1 小题2 小题3 小题4 小题5 小题6 小题7
+#15 [  ]    S. bank,input10,item1           自动判题 计分 提交 sustainability abun
+#16 [  ]    S. area1,item1                  计分 提交 中国是农业大国，古老的农耕文化凝聚了世代相传的农
+#17 [  ]    ..                              Silk and seeds: China's agrari
+#18 [  ]    S. input7,item1                 提交 Along the ancient Silk Road
+#19 [  ]    .. area1,item1                  
+#20 [  ]    S.                              计分 提交 1. What major agricultur
+#21 [  ]    S.                              计分 提交 2. What Chinese agricult
+#22 [  ]    S.                              计分 提交 3. What aspects of this 
+#23 [100]   .R bank,item1                   自动判题 计分 得分： 100 分 重新作答 sericul
+#24 [  ]    S. bank,input6,item1            自动判题 计分 提交 integrate into bran
+#25 [  ]    S. dropdown,item1               自动判题 计分 提交 The Belt and Road I
+#26 [  ]    .. UPLOAD,area1,item1           

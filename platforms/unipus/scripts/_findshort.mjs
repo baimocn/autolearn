@@ -1,0 +1,13 @@
+import { connect } from "./utlib.mjs";
+const tabs=await(await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd=tabs.find(t=>/ucontent\.unipus\.cn/.test(t.url));
+const L=await connect(rd.id);const {ev,frames,cdp}=L;
+const tb=(await frames()).find(f=>/textbook\/book/.test(f.url)&&f.ctx);
+const r=await ev(`(()=>{const bs=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')];
+ return bs.map((b,i)=>{const t=(b.innerText||'').replace(/[ ]+/g,' ');
+  const ta=b.querySelectorAll('textarea').length;
+  const sub=[...b.querySelectorAll('[class*=i-button_default-container]')].some(e=>(e.innerText||'').replace(/[ ]+/g,'')==='提交');
+  if(!ta&&!sub)return null;
+  return {i,ta,sub,len:t.length,head:t.slice(0,80),tail:t.slice(-40)};}).filter(Boolean);})()`,tb.ctx).catch(e=>String(e));
+console.log(JSON.stringify(r,null,1).slice(0,3000));
+cdp.close();

@@ -1,0 +1,550 @@
+AI改写
+5
+1
+7
+10
+8
+3
+4
+2
+9
+6
+Q
+æ
+编写中
+技能点
+new
+名称变更
+删除
+评阅
+扩写
+缩写
+润色
+写作助手
+试题设置
+未发布
+已下架
+已发布
+推题得分率设置
+ZIP
+TXT
+T
+M D
+M
+En
+Unit test 6
+
+Part I Words and expressions (40 points)
+
+1. Words and phrases
+
+Choose the correct word to complete each of the following sentences.
+
+自动判题
+计分
+1.
+
+The ________ of the new farming drone makes it suitable for tasks ranging from soil analysis to crop spraying.
+
+A
+
+flexibility
+
+B
+
+complexity
+
+C
+
+versatility
+
+D
+
+stability
+
+自动判题
+计分
+2.
+
+Research indicates that in humid and low-lying regions, crops are more ________ to fungal infections during the rainy season. 
+
+A
+
+sensitive
+
+B
+
+adaptable
+
+C
+
+susceptible
+
+D
+
+vulnerable
+
+自动判题
+计分
+3.
+
+Drip irrigation is ________ one of the most water-efficient techniques in modern farming.
+
+A
+
+arguably
+
+B
+
+efficiently
+
+C
+
+scarcely
+
+D
+
+randomly
+
+自动判题
+计分
+4.
+
+Soil degradation is often an ________ consequence of intensive agricultural practices.
+
+A
+
+inherent
+
+B
+
+occasional
+
+C
+
+avoidable
+
+D
+
+invariable 
+
+自动判题
+计分
+5.
+
+In the dry season, herders move cattle to higher elevations where they can ________ on fresh pastures.
+
+A
+
+browse
+
+B
+
+graze
+
+C
+
+stumble
+
+D
+
+roam
+
+自动判题
+计分
+6.
+
+The cooperative invested in new equipment to ________ the process of grain storage and transportation, aiming to reduce time and labor cost.
+
+A
+
+extend
+
+B
+
+streamline
+
+C
+
+coordinate
+
+D
+
+delay
+
+自动判题
+计分
+7.
+
+Adding water to the dry fertilizer will ________ the chemical process that makes nutrients available to plants.
+
+A
+
+release
+
+B
+
+stimulate
+
+C
+
+activate
+
+D
+
+multiply
+
+
+
+
+Select and fill in the correct expression to complete each of the following sentences.
+
+自动判题
+计分
+no stranger to
+around the clock
+work out
+in one go
+kill off
+8.
+
+The new combine harvester can process an entire field 
+, significantly reducing labor costs compared to traditional methods.
+
+自动判题
+计分
+no stranger to
+around the clock
+work out
+in one go
+kill off
+9.
+
+During harvest season, workers operated 
+ to gather the ripe wheat before the rain set in.
+
+自动判题
+计分
+no stranger to
+around the clock
+work out
+in one go
+kill off
+10.
+
+Overusing pesticides could 
+ not just harmful insects but also pollinators like bees, which would disrupt the entire ecosystem.
+
+自动判题
+计分
+no stranger to
+around the clock
+work out
+in one go
+kill off
+11.
+
+Farmers in this region are 
+ extreme weather, having adapted their irrigation systems to cope with both droughts and flash floods.
+
+自动判题
+计分
+no stranger to
+around the clock
+work out
+in one go
+kill off
+12.
+
+The researchers are trying to 
+ why the new crop variety underperforms in certain soil conditions.
+
+
+
+
+2. Technical terms
+
+Choose the correct explanation for each technical term.
+
+自动判题
+计分
+13.
+
+embryo transfer
+
+A
+
+A technique for freezing embryos before planting them in an animal.
+
+B
+
+A process of surgically removing embryos for genetic analysis.
+
+C
+
+A method for placing fertilized embryos into a host animal.
+
+D
+
+A procedure that alters embryos using gene-editing tools.
+
+自动判题
+计分
+14.
+
+artificial insemination
+
+A
+
+A process of inserting sperm into a female without mating.
+
+B
+
+A method for transferring embryos into surrogate animals.
+
+C
+
+A hormone-based system to control reproductive behavior.
+
+D
+
+A surgical technique to extract fertilized animal embryos.
+
+自动判题
+计分
+15.
+
+genome sequencing
+
+A
+
+A process used to identify gene traits for hybrid breeding.
+
+B
+
+A method for determining the order of DNA components.
+
+C
+
+A tool for altering gene patterns in crop development.
+
+D
+
+A procedure for extracting DNA from plant or animal cells.
+
+自动判题
+计分
+16.
+
+animal husbandry
+
+A
+
+A field of study focused on animal anatomy and nutrition.
+
+B
+
+A practice involving the care and breeding of farm animals.
+
+C
+
+A system that monitors wild animal behavior for science.
+
+D
+
+A strategy for maximizing livestock marketing efficiency.
+
+自动判题
+计分
+17.
+
+arable land
+
+A
+
+Land used for the cultivation of food and cash crops.
+
+B
+
+Land that supports natural forests and long-term conservation.
+
+C
+
+Land available for grazing animals and poultry.
+
+D
+
+Land covered by housing developments and roadways.
+
+自动判题
+计分
+18.
+
+enzyme
+
+A
+
+A protein that accelerates chemical reactions in cells.
+
+B
+
+A hormone responsible for metabolic energy transfer.
+
+C
+
+A biological substance used for energy production.
+
+D
+
+A fluid secreted by glands to support body movement.
+
+自动判题
+计分
+19.
+
+cellular agriculture
+
+A
+
+A way of raising livestock in vertically stacked farms.
+
+B
+
+A system that tracks crops using digital cell signals.
+
+C
+
+A process that creates food products from cell cultures.
+
+D
+
+A technique that grows fruits indoors using cell trays.
+
+自动判题
+计分
+20.
+
+granary
+
+A
+
+A chamber designed to preserve seeds for research.
+
+B
+
+A facility for milling grains into powder and flour. 
+
+C
+
+A silo used for fermenting silage for animal feed.
+
+D
+
+A storehouse used to dry and keep harvested grain.
+
+
+
+
+Part II Reading comprehension (30 points)
+
+Read the passage and choose the best answer to each question.
+
+自动判题
+计分
+
+Have you ever joyously stepped out to your backyard garden only to find your meticulously cared-for plants and herbs wilted and dying? Was the soil too dry? Did pests find their way in? During times like these, some frustrated gardeners may wish their fickle ficus (无花果树) would just tell them what it needs. A new project in the UK is trying to see if that concept can be demonstrated in the real world.
+
+
+
+
+Next year, the Royal Horticultural Society in England will show off an "intelligent garden" that uses an AI model to monitor the garden's environment and inform gardeners when it needs care. Visitors can ask the AI-powered garden questions. The model could then respond with phrases like "I need a bit more water," or "I could use a haircut," depending on data captured from sensors embedded in the soil. Aside from the pleasant novelty of chatting with plants, the garden will provide visitors with a physical representation of the many ways AI and Internet of Things technologies could be used to enhance sustainability and conservation efforts moving forward.
+
+
+
+
+When it is unveiled, the garden will rely on a network of sensors nestled throughout the garden, measuring environmental factors like soil moisture, alkalinity, and nutrient levels, wind speed, and projected rainfall. All of that data is then sent to a specially designed AI model housed in a pavilion at the back of the garden. The model can then analyze those factors and inform gardeners on optimal feeding, watering, or trimming regimens.
+
+
+
+
+On-site plant caretakers aren't the only ones who can interact with the garden. Visitors to the Chelsea Flower Show will be able to walk up to virtual platforms and ask the intelligent garden questions about its current environmental state. The AI language module will then interpret the data and spit it back out to the visitors in a coherent, conversational dialogue. In theory, insights provided by models like this one could help gardeners allocate resources efficiently and avoid over-watering plants before rainfall, both of which can aid in sustainability efforts. Those tools could be a welcome convenience for casual growers or businesses looking to reduce utility costs. It's unclear, however, whether even the best models can account for anomalies and individual plant tendencies with the same level of care as experienced gardeners.
+
+
+
+
+The garden's designers wanted to avoid falling into the trap of making the AI garden feel overly artificial. Though sensors and algorithms play a critical role in maintaining the plants, the actual physical design of the space was left up to humans. The result is a "forest garden concept" lush with biodiversity and greenery. Once the exhibit concludes, the garden will reportedly live on as an accessible community space.
+
+21.
+
+What is the main purpose of the AI-powered garden project?
+
+A
+
+To explore whether AI can replicate experienced gardeners' decision-making.
+
+B
+
+To demonstrate the practical integration of AI and sustainable gardening.
+
+C
+
+To develop an interactive garden for public entertainment purposes.
+
+D
+
+To reduce maintenance costs by automating routine gardening tasks.
+
+自动判题
+计分
+
+Have you ever joyously stepped out to your backyard garden only to find your meticulously cared-for plants and herbs wilted and dying? Was the soil too dry? Did pests find their way in? During times like these, some frustrated gardeners may wish their fickle ficus (无花果树) would just tell them what it needs. A new project in the UK is trying to see if that concept can be demonstrated in the real world.
+
+
+
+
+Next year, the Royal Horticultural Society in England will show off an "intelligent garden" that uses an AI model to monitor the garden's environment and inform gardeners when it needs care. Visitors can ask the AI-powered garden questions. The model could then respond with phrases like "I need a bit more water," or "I could use a haircut," depending on data captured from sensors embedded in the soil. Aside from the pleasant novelty of chatting with plants, the garden will provide visitors with a physical representation of the many ways AI and Internet of Things technologies could be used to enhance sustainability and conservation efforts moving forward.
+
+
+
+
+When it is unveiled, the garden will rely on a network of sensors nestled throughout the garden, measuring environmental factors like soil moisture, alkalinity, and nutrient levels, wind speed, and projected rainfall. All of that data is then sent to a specially designed AI model housed in a pavilion at the back of the garden. The model can then analyze those factors and inform gardeners on optimal feeding, watering, or trimming regimens.
+
+
+
+
+On-site plant caretakers aren't the only ones who can interact with the garden. Visitors to the Chelsea Flower Show will be able to walk up to virtual platforms and ask the intelligent garden questions about its current environmental state. The AI language module will then interpret the data and spit it back out to the visitors in a coherent, conversational dialogue. In theory, insights provided by models like this one could help gardeners allocate resources efficiently and avoid over-watering plants before rainfall, both of which can aid in sustainability efforts. Those tools could be a welcome convenience for casual growers or businesses looking to reduce utility costs. It's unclear, however, whether even the best models can account for anomalies and individual plant tendencies with the same level of care as experienced gardeners.
+
+
+
+
+The garden's designers wanted to avoid falling into the trap of making the AI garden feel overly artificial. Though sensors and algorithms play a critical role in maintaining the plants, the actual physical design of the space was left up to humans. The result is a "forest garden concept" lush with biodiversity and greenery. Once the exhibit concludes, the garden will reportedly live on as an accessible community space.
+
+22.
+
+How do visitors communicate with the AI-powered garden?
+
+A
+
+By using touchscreens to select preset gardening questions.
+
+B
+
+By consulting an AI through a platform to receive real-time responses.
+
+C
+
+By speaking with trained guides who interpret the AI's data.
+
+D
+
+By receiving personalized reports based on the AI's sensor readings.
+
+自动判题
+计分
+
+Have you ever joyously stepped out to your backyard garden only to find your meticulously cared-for plants and herbs wilted and dying? Was the soil too dry? Did pests find their way in? During times like these, some frustrated gardeners may wish their fickle ficus (无花果树) would just tell them what it needs. A new project in the UK is trying to see if that concept can be demonstrated in the real world.
+
+
+
+
+Next year, the Royal Horticultural Society in England will show off an "intelligent garden" that uses an AI model to monitor the garden's environment and inform gardeners when it needs care. Visitors can ask the AI-powered garden questions. The model could then respond with phrases like "I need a bit more water," or "I could use a haircut," depending on data captured from sensors

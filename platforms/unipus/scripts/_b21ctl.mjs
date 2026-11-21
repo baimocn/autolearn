@@ -1,0 +1,12 @@
+import { connect } from "./utlib.mjs";
+const tabs=await(await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd=tabs.find(t=>/ucontent\.unipus\.cn/.test(t.url));
+const L=await connect(rd.id);const {ev,frames,cdp}=L;
+const tb=(await frames()).find(f=>/textbook\/book/.test(f.url)&&f.ctx);
+const r=await ev(`(()=>{const b=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')][21];
+ const sels=[...b.querySelectorAll('[class*=digEmptySelectView_selectTrigger],[class*=selectTrigger],select')].map(e=>({cls:(e.className||'').toString().slice(0,55),tag:e.tagName,t:(e.innerText||'').replace(/[ ]+/g,'').slice(0,20)}));
+ const blanks=[...b.querySelectorAll('[class*=digEmptyView_blankView],[class*=blankView]')].map(e=>({cls:(e.className||'').toString().slice(0,55),t:(e.innerText||'').replace(/[ ]+/g,'').slice(0,20)}));
+ const rows=[...b.querySelectorAll('[class*=chioceView_strongListView]')].length;
+ return {sels:sels.slice(0,12),blanks:blanks.slice(0,12),rows,text:(b.innerText||'').replace(/[ ]+/g,' ').slice(0,700)};})()`,tb.ctx).catch(e=>String(e));
+console.log(JSON.stringify(r,null,1).slice(0,3500));
+cdp.close();

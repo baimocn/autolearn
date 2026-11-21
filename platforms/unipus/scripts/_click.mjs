@@ -1,0 +1,11 @@
+import { connect, sleep } from "./utlib.mjs";
+const [x,y] = process.argv.slice(2).map(Number);
+const tabs = await (await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd = tabs.find(t => /ucontent\.unipus\.cn/.test(t.url));
+const L = await connect(rd.id);
+const { cdp, sessionId } = L;
+await cdp.send("Input.dispatchMouseEvent",{type:"mouseMoved",x,y},sessionId).catch(()=>{});
+await cdp.send("Input.dispatchMouseEvent",{type:"mousePressed",x,y,button:"left",buttons:1,clickCount:1},sessionId);
+await cdp.send("Input.dispatchMouseEvent",{type:"mouseReleased",x,y,button:"left",buttons:0,clickCount:1},sessionId);
+console.log("clicked",x,y);
+cdp.close();

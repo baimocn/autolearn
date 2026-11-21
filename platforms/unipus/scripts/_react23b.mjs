@@ -1,0 +1,20 @@
+import { ensureReader, CH } from "./reader.mjs";
+import { connect, sleep } from "./utlib.mjs";
+const tid = await ensureReader(1);
+const L = await connect(tid);
+let tb=(await L.frames()).find(f=>/textbook\/book/.test(f.url)&&f.ctx&&f.url.includes(CH[1].slice(0,12)));
+const { ev }=L;
+await ev(`(()=>{const b=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')][23];if(b)b.scrollIntoView({block:'center'});return 1;})()`,tb.ctx);
+await sleep(500);
+const res=await ev(`(async()=>{
+ const b=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')][23];
+ const inp=b.querySelector('input[type=text]'); inp.focus();
+ await new Promise(r=>setTimeout(r,150));
+ const span=[...b.querySelectorAll('span')].find(e=>[...e.childNodes].some(n=>n.nodeType===3&&n.textContent.trim()==='sericulture'));
+ const rk=Object.keys(span).find(k=>k.startsWith('__reactProps'));
+ span[rk].onClick({stopPropagation(){},preventDefault(){},target:span,currentTarget:span,nativeEvent:{}});
+ await new Promise(r=>setTimeout(r,400));
+ return [...b.querySelectorAll('input[type=text]')].map(e=>e.value);
+})()`,tb.ctx);
+console.log("vals:",JSON.stringify(res));
+L.cdp.close();

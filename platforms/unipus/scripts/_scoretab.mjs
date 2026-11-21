@@ -1,0 +1,12 @@
+import { CDP, sleep } from "./cdp.mjs";
+import { connect } from "./utlib.mjs";
+const ver = await (await fetch("http://127.0.0.1:9222/json/version")).json();
+const b = await CDP.connect(ver.webSocketDebuggerUrl);
+const r = await b.send("Target.createTarget", { url: "https://uai.unipus.cn/app/cmgt/resource-detail/20001221469" });
+b.close();
+await sleep(11000);
+const L = await connect(r.targetId);
+const { ev, cdp, sessionId } = L;
+const txt = await ev(`(()=>document.body.innerText.replace(/\s+/g,' ').slice(0,1400))()`).catch(e=>"ERR");
+console.log(txt);
+cdp.close();

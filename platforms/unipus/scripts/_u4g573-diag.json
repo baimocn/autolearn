@@ -1,0 +1,47 @@
+{
+ "topInfo": {
+  "drawerOpen": false,
+  "closeCandidates": [],
+  "hasLimit": false,
+  "bodyLen": 0,
+  "popups": 0
+ },
+ "blk": {
+  "status": "loading",
+  "len": 0,
+  "text": "",
+  "fi": 0,
+  "nonempty": 0,
+  "doneIdxs": [],
+  "bodyHasLimit": false
+ },
+ "layout": {
+  "idx": 21,
+  "len": 0,
+  "text": "",
+  "fileInputs": 0,
+  "ups": [],
+  "subs": [],
+  "off": {
+   "ox": 0,
+   "oy": 0
+  },
+  "hasUploadText": false,
+  "hasRedo": false
+ },
+ "net": [
+  {
+   "u": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"cha"
+  },
+  {
+   "u": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"cha"
+  },
+  {
+   "u": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"cha"
+  }
+ ],
+ "shot": "shots/U4-u4g573-pre.png"
+}

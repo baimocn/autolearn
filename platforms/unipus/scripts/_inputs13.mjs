@@ -1,0 +1,10 @@
+import { connect } from "./utlib.mjs";
+const tabs=await(await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd=tabs.find(t=>/ucontent\.unipus\.cn/.test(t.url));
+const L=await connect(rd.id);const {ev,frames,cdp}=L;
+const tb=(await frames()).find(f=>/textbook\/book/.test(f.url)&&f.ctx);
+const r=await ev(`(()=>{const b=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')][13];const t=(b.innerText||'').replace(/[ ]+/g,' ');
+ const els=[...b.querySelectorAll('input,textarea,[contenteditable]')].map(e=>({tag:e.tagName,cls:(e.className||'').toString().slice(0,40),type:e.getAttribute('type'),ph:e.getAttribute('placeholder')||'',w:Math.round(e.getBoundingClientRect().width)}));
+ return {head:t.slice(0,180),els};})()`,tb.ctx).catch(e=>String(e));
+console.log(JSON.stringify(r,null,1).slice(0,2500));
+cdp.close();

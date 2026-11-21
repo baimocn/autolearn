@@ -1,0 +1,74 @@
+[
+ {
+  "id": "u7g1094",
+  "route": "u7/u7g1093/u7g1094",
+  "nonempty": 24,
+  "fin": 0
+ },
+ {
+  "id": "u7g1111",
+  "route": "u7/u7g1097/u7g1111",
+  "nonempty": 25,
+  "fin": 3
+ },
+ {
+  "id": "u7g1113",
+  "route": "u7/u7g1097/u7g1113",
+  "nonempty": 25,
+  "fin": 0
+ },
+ {
+  "id": "u7g1115",
+  "route": "u7/u7g1097/u7g1115",
+  "nonempty": 25,
+  "fin": 4
+ },
+ {
+  "id": "u7g1126",
+  "route": "u7/u7g1097/u7g1126",
+  "nonempty": 25,
+  "fin": 0
+ },
+ {
+  "id": "u7g1127",
+  "route": "u7/u7g1097/u7g1127",
+  "nonempty": 25,
+  "fin": 0
+ },
+ {
+  "id": "u7g1128",
+  "route": "u7/u7g1097/u7g1128",
+  "nonempty": 25,
+  "fin": 0
+ },
+ {
+  "id": "u7g1130",
+  "route": "u7/u7g1097/u7g1130",
+  "nonempty": 25,
+  "fin": 0
+ },
+ {
+  "id": "u7g901",
+  "route": "u7/u7g899/u7g900/u7g901",
+  "nonempty": 25,
+  "fin": 5
+ },
+ {
+  "id": "u7g905",
+  "route": "u7/u7g899/u7g902/u7g903/u7g905",
+  "nonempty": 25,
+  "fin": 0
+ },
+ {
+  "id": "u7g919",
+  "route": "u7/u7g899/u7g916/u7g917/u7g919",
+  "nonempty": 25,
+  "fin": 2
+ },
+ {
+  "id": "u7g920",
+  "route": "u7/u7g899/u7g916/u7g917/u7g920",
+  "nonempty": 25,
+  "fin": 0
+ }
+]

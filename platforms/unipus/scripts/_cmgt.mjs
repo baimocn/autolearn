@@ -1,0 +1,13 @@
+import { CDP, sleep } from "./cdp.mjs";
+const tabs = await (await fetch("http://127.0.0.1:9222/json/list")).json();
+const page = tabs.find(t=>t.type==="page" && /unipus/.test(t.url));
+const cdp = await CDP.connect(page.webSocketDebuggerUrl);
+await cdp.send("Page.enable");
+const ev = async (expr) => (await cdp.send("Runtime.evaluate",{expression:expr,returnByValue:true})).result.value;
+await cdp.send("Page.navigate",{url:"https://uai.unipus.cn/app/cmgt/course-management?tutorialName=%E6%96%B0%E5%86%9C%E7%A7%91%E5%A4%A7%E5%AD%A6%E8%8B%B1%E8%AF%AD"});
+await sleep(7000);
+const body = await ev("document.body.innerText.replace(/\n{2,}/g,'\n').slice(0,1200)");
+console.log("BODY:\n",body);
+const links = await ev(`[...document.querySelectorAll('a,button,[class*=card],[class*=item]')].map(a=>({t:(a.innerText||'').replace(/\s+/g,' ').trim().slice(0,50),h:a.href||''})).filter(x=>/英语|进入|课程/.test(x.t)).slice(0,20)`);
+console.log("ITEMS:", JSON.stringify(links,null,1));
+cdp.close();

@@ -1,0 +1,14 @@
+import { connect, sleep } from "./utlib.mjs";
+const tabs=await(await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd=tabs.find(t=>/ucontent\.unipus\.cn/.test(t.url));
+const L=await connect(rd.id);const {ev,frames,cdp}=L;
+const ex=(await frames()).find(f=>/testing\/diagnosis/.test(f.url)&&f.ctx);
+const r=await ev(`(()=>{const n=s=>(s||'').replace(/[ ]+/g,'');const v=[...document.querySelectorAll('button,div,span,a')].filter(e=>n(e.innerText)==='查看测试结果'&&e.getBoundingClientRect().width>20);if(!v.length)return'none';v[v.length-1].click();return'clicked';})()`,ex.ctx).catch(e=>String(e));
+console.log('view',r);
+await sleep(5000);
+const d=await ev(`(()=>{const t=document.body.innerText.replace(/[ ]+/g,' ');
+ const hasAns=/正确答案/.test(t);
+ const sample=(t.match(/你的答案[^。]{0,40}正确答案[^。]{0,20}/g)||[]).slice(0,5);
+ return {len:t.length,hasAns,sample,head:t.slice(500,900)};})()`,ex.ctx).catch(e=>String(e));
+console.log(JSON.stringify(d,null,1).slice(0,2000));
+cdp.close();

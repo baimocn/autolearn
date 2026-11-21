@@ -1,0 +1,23 @@
+{
+ "dom": {
+  "chapter": "6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b",
+  "chapterOK": "6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b",
+  "blocks": 26,
+  "textNonempty": 0,
+  "innerNonempty": 0,
+  "statuses": [
+   "loading"
+  ],
+  "targetExists": true,
+  "targetStatus": "loading",
+  "targetLen": 0,
+  "targetHasRecord": false,
+  "hasOralControls": false,
+  "hasLogin": false,
+  "hasLimit": false,
+  "bodyLen": 15822,
+  "healthyProbePass": false
+ },
+ "shot": "shots/U4-u4g569.png",
+ "note": "u4 整章空壳，题块全 loading，录音控件未渲染，无法执行 _oralall.mjs"
+}

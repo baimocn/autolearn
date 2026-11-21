@@ -1,6 +1,6 @@
 ---
 name: autolearn
-description: 在线课程平台自动化总入口（多平台）。当前收录 U校园（Unipus）：视频/音频倍速、口语 TTS 录音、文件上传、简答提交、精读课文、正文慢滚上报。触发词：U校园、Unipus、刷课、做题、口语题、上传题、精读、课程进度。
+description: 在线课程平台自动化总入口（多平台）。当前收录 U校园（Unipus）、学习通（Chaoxing/超星）、ICC 高教社数字课程。U校园能力：视频/音频倍速、口语 TTS 录音、文件上传、简答提交、精读课文、正文慢滚上报。学习通能力：课程/任务点侦察、知识节点 isPassed 判据、视频点播。触发词：U校园、Unipus、学习通、超星、Chaoxing、刷课、做题、口语题、上传题、精读、课程进度。
 ---
 
 # autolearn — 在线课程自动化技能
@@ -13,6 +13,7 @@ description: 在线课程平台自动化总入口（多平台）。当前收录 
 | 平台 | 入口 | 域名特征 |
 |---|---|---|
 | U校园 Unipus | `platforms/unipus/SKILL.md` | `ucontent.unipus.cn` / `ipub.unipus.cn` / `uai.unipus.cn` / `sso.unipus.cn` |
+| 学习通 Chaoxing | `platforms/chaoxing/SKILL.md` | `chaoxing.com` / `i.mooc.chaoxing.com` / `mooc1.chaoxing.com` / `mooc2-ans.chaoxing.com` |
 | ICC 高教社数字课程 | `platforms/hep-icc/SKILL.md` | `icc.hep.com.cn`（JeecgBoot 微服务，多 `/jeecg-*/` 前缀） |
 
 > 新平台接入：复制 `platforms/unipus/` 改造成 `platforms/<new>/`，

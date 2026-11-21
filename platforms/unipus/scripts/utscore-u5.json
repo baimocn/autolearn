@@ -1,0 +1,29 @@
+{
+ "text": "Unit test 5 测试满分为100.0分，你的最终得分是93.0分，正确率为100.0%。你的得分 等于 班级平均水平。 再次作答 Words and expressions Reading comprehension Translation 93.0 得分 正确率：100% 在本单元测试中，你的总体表现非常出色，在各个部分均取得了优异的成绩。请继续保持这份热情与努力，相信你未来的表现会更加出色！ 你在以下部分表现不错，继续加油！ relocate Reading comprehension assembly starkly specialty tranquil renovation breathe new life into rural revitalization align with the other way around hustle and bustle close off recyclable material rural depopulation symbiotic relationship vernacular house abandoned farmland rice paddy ecotourism bolster 你有以下部分需要巩固，现在开始完成推荐练习吧： Translation 推荐练习",
+ "btns": [
+  {
+   "t": "再次作答",
+   "w": 97,
+   "x": 1093,
+   "y": 202
+  },
+  {
+   "t": "再次作答",
+   "w": 63,
+   "x": 1093,
+   "y": 203
+  },
+  {
+   "t": "推荐练习",
+   "w": 97,
+   "x": 172,
+   "y": 1279
+  },
+  {
+   "t": "推荐练习",
+   "w": 63,
+   "x": 172,
+   "y": 1280
+  }
+ ]
+}

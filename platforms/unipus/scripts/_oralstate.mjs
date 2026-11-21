@@ -1,0 +1,12 @@
+import { connect } from "./utlib.mjs";
+const tabs=await(await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd=tabs.find(t=>/ucontent\.unipus\.cn/.test(t.url));
+const L=await connect(rd.id);const {ev,frames,cdp}=L;
+const tb=(await frames()).find(f=>/textbook\/book/.test(f.url)&&f.ctx);
+const r=await ev(`(()=>{const bs=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')];const out=[];
+ bs.forEach((b,i)=>{const t=(b.innerText||'').replace(/\s+/g,' ');
+  const has=/准备时长|点击开始|我的回放|AI 评分|作答时长|重新作答|回放|重录|等待结果/.test(t);
+  if(has)out.push({i,len:t.length,states:['点击开始','准备录音','开始录音','点击结束','结束录音','回放','重录','重新作答','等待结果','我的回放','AI 评分','提交'].filter(x=>t.indexOf(x)>=0),score:(t.match(/得分[^0-9]*([0-9.]+)/)||[])[1]||null,hasAnswer:t.indexOf('答案')>=0,head:t.slice(0,60)});});
+ return out;})()`,tb.ctx).catch(e=>String(e));
+console.log(JSON.stringify(r,null,1).slice(0,5000));
+cdp.close();

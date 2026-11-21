@@ -1,0 +1,55 @@
+{
+ "healthy": {
+  "blocks": 26,
+  "nonempty": 26
+ },
+ "pillOK": {
+  "x": 597,
+  "y": 681,
+  "w": 122,
+  "h": 40,
+  "ok": true,
+  "at": "SPAN.rich-sentences_rich-sentences-bottom-but",
+  "atText": "打开精读模式"
+ },
+ "opened": true,
+ "au": {
+  "n": 1,
+  "d": 301
+ },
+ "auEnd": {
+  "t": 301,
+  "d": 301,
+  "ended": false
+ },
+ "hitFin": [
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"oMrcWJawhYiLWVMS\",\"nodeType\":\"question-block\",\"a\":1794361328639,\"b\":1794361328639}"
+  }
+ ],
+ "dom": {
+  "nodeId": "oMrcWJawhYiLWVMS",
+  "exists": true,
+  "len": 4392,
+  "status": "done",
+  "head": "The wind of \"China Travel\" has blown into the countryside 1. Today, a \"new rhythm\" is taking hold among an increasing number of foreign travelers in China: Whil",
+  "hasOpenPill": false,
+  "bodyHasClose": true
+ },
+ "net": [
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"oMrcWJawhYiLWVMS\",\"nodeType\":\"question-block\",\"a\":1794361328639,\"b\":1794361328639}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/readingtime/heartbeat",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\"}"
+  }
+ ],
+ "check": {
+  "err": "未捕获到 u4 进度响应",
+  "n": 0
+ },
+ "shot": "shots/U4-u4g560.png"
+}

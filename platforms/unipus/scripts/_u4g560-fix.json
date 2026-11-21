@@ -1,0 +1,15 @@
+{
+ "healthy": false,
+ "last": {
+  "blocks": 26,
+  "nonempty": 0,
+  "targetLen": 0,
+  "status": "loading",
+  "unitTest": false,
+  "topTimeout": false
+ },
+ "off": {
+  "ox": 0,
+  "oy": -6
+ }
+}

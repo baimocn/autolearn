@@ -1,0 +1,12 @@
+import { connect } from "./utlib.mjs";
+import fs from "node:fs";
+const tabs=await(await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd=tabs.find(t=>/ucontent\.unipus\.cn/.test(t.url));
+const L=await connect(rd.id);const {cdp,sessionId,ev,frames}=L;
+const tb=(await frames()).find(f=>/textbook\/book/.test(f.url)&&f.ctx);
+await ev(`(()=>{const b=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')][3];if(b)b.scrollIntoView({block:'center'});return 1;})()`,tb.ctx).catch(()=>{});
+await new Promise(r=>setTimeout(r,1200));
+const {data}=await cdp.send("Page.captureScreenshot",{format:"png"},sessionId);
+fs.writeFileSync("oral-view.png",Buffer.from(data,"base64"));
+console.log("saved");
+cdp.close();

@@ -1,0 +1,11 @@
+import { connect, sleep } from "./utlib.mjs";
+const tabs=await(await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd=tabs.find(t=>/ucontent\.unipus\.cn/.test(t.url));
+const L=await connect(rd.id);const {ev,frames,cdp}=L;
+const ex=(await frames()).find(f=>/testing\/diagnosis/.test(f.url)&&f.ctx);
+const r=await ev(`(()=>{const n=s=>(s||'').replace(/[ ]+/g,'');const v=[...document.querySelectorAll('button,div,span,a')].filter(e=>n(e.innerText)==='答题解析'&&e.getBoundingClientRect().width>20);if(!v.length)return'none';v[v.length-1].click();return'clicked';})()`,ex.ctx).catch(e=>String(e));
+console.log('click',r);
+await sleep(5000);
+const d=await ev(`(()=>{const t=document.body.innerText.replace(/[ ]+/g,' ');return {len:t.length,head:t.slice(0,800)};})()`,ex.ctx).catch(e=>String(e));
+console.log(JSON.stringify(d).slice(0,2500));
+cdp.close();

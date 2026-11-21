@@ -1,0 +1,303 @@
+[
+ {
+  "name": "Unit 1 Living soil, living culture",
+  "pct": null,
+  "x": 192,
+  "y": 86,
+  "vis": true
+ },
+ {
+  "name": "Learning objectives",
+  "pct": null,
+  "x": 204,
+  "y": 153,
+  "vis": true
+ },
+ {
+  "name": "Unlocking the topic",
+  "pct": null,
+  "x": 204,
+  "y": 200,
+  "vis": true
+ },
+ {
+  "name": "Setting the scene",
+  "pct": null,
+  "x": 198,
+  "y": 247,
+  "vis": true
+ },
+ {
+  "name": "Activating subject knowledge",
+  "pct": null,
+  "x": 212,
+  "y": 292,
+  "vis": true
+ },
+ {
+  "name": "Viewing through the lens",
+  "pct": null,
+  "x": 204,
+  "y": 338,
+  "vis": true
+ },
+ {
+  "name": "Pre-viewing",
+  "pct": null,
+  "x": 212,
+  "y": 385,
+  "vis": true
+ },
+ {
+  "name": "Viewing and synthesizing",
+  "pct": null,
+  "x": 198,
+  "y": 430,
+  "vis": true
+ },
+ {
+  "name": "Viewing and discussing",
+  "pct": null,
+  "x": 198,
+  "y": 475,
+  "vis": true
+ },
+ {
+  "name": "Exploring the frontier",
+  "pct": null,
+  "x": 204,
+  "y": 522,
+  "vis": true
+ },
+ {
+  "name": "Reading in detail",
+  "pct": null,
+  "x": 212,
+  "y": 568,
+  "vis": true
+ },
+ {
+  "name": "Reading and synthesizing",
+  "pct": null,
+  "x": 212,
+  "y": 613,
+  "vis": true
+ },
+ {
+  "name": "Global understanding",
+  "pct": null,
+  "x": 220,
+  "y": 658,
+  "vis": true
+ },
+ {
+  "name": "Detailed understanding",
+  "pct": null,
+  "x": 220,
+  "y": 704,
+  "vis": true
+ },
+ {
+  "name": "Thinking globally",
+  "pct": null,
+  "x": 198,
+  "y": 749,
+  "vis": true
+ },
+ {
+  "name": "Enhancing writing skills",
+  "pct": null,
+  "x": 212,
+  "y": 794,
+  "vis": true
+ },
+ {
+  "name": "Writing strategies",
+  "pct": null,
+  "x": 206,
+  "y": 839,
+  "vis": true
+ },
+ {
+  "name": "Task 1",
+  "pct": null,
+  "x": 220,
+  "y": 884,
+  "vis": true
+ },
+ {
+  "name": "Task 2",
+  "pct": null,
+  "x": 220,
+  "y": 930,
+  "vis": true
+ },
+ {
+  "name": "Improving language skills",
+  "pct": null,
+  "x": 212,
+  "y": 975,
+  "vis": true
+ },
+ {
+  "name": "Agricultural terms",
+  "pct": null,
+  "x": 220,
+  "y": 1020,
+  "vis": true
+ },
+ {
+  "name": "Language in use",
+  "pct": null,
+  "x": 220,
+  "y": 1065,
+  "vis": true
+ },
+ {
+  "name": "Banked cloze",
+  "pct": null,
+  "x": 220,
+  "y": 1110,
+  "vis": true
+ },
+ {
+  "name": "Translating agriculture-related materials",
+  "pct": null,
+  "x": 220,
+  "y": 1165,
+  "vis": true
+ },
+ {
+  "name": "Discovering China",
+  "pct": null,
+  "x": 204,
+  "y": 1221,
+  "vis": true
+ },
+ {
+  "name": "Getting insights from China",
+  "pct": null,
+  "x": 212,
+  "y": 1313,
+  "vis": true
+ },
+ {
+  "name": "Understanding essential information",
+  "pct": null,
+  "x": 220,
+  "y": 1367,
+  "vis": true
+ },
+ {
+  "name": "Exploring in depth",
+  "pct": null,
+  "x": 206,
+  "y": 1422,
+  "vis": true
+ },
+ {
+  "name": "Applying in a global context",
+  "pct": null,
+  "x": 220,
+  "y": 1467,
+  "vis": true
+ },
+ {
+  "name": "General vocabulary",
+  "pct": null,
+  "x": 220,
+  "y": 1603,
+  "vis": true
+ },
+ {
+  "name": "Sentence structure",
+  "pct": null,
+  "x": 206,
+  "y": 1648,
+  "vis": true
+ },
+ {
+  "name": "Getting on the stage",
+  "pct": null,
+  "x": 204,
+  "y": 1695,
+  "vis": true
+ },
+ {
+  "name": "Step-by-step guide",
+  "pct": null,
+  "x": 198,
+  "y": 1741,
+  "vis": true
+ },
+ {
+  "name": "Learning from industry experts",
+  "pct": null,
+  "x": 212,
+  "y": 1786,
+  "vis": true
+ },
+ {
+  "name": "Vocabulary",
+  "pct": null,
+  "x": 190,
+  "y": 1833,
+  "vis": true
+ },
+ {
+  "name": "Unit test",
+  "pct": null,
+  "x": 204,
+  "y": 1880,
+  "vis": true
+ },
+ {
+  "name": "Unit 2 New farmers, new future",
+  "pct": null,
+  "x": 192,
+  "y": 1947,
+  "vis": true
+ },
+ {
+  "name": "Unit 3 Feeding the growing world",
+  "pct": null,
+  "x": 192,
+  "y": 2033,
+  "vis": true
+ },
+ {
+  "name": "Unit 4 Fields of joy",
+  "pct": null,
+  "x": 192,
+  "y": 2104,
+  "vis": true
+ },
+ {
+  "name": "Unit 5 Redefining rural life",
+  "pct": null,
+  "x": 192,
+  "y": 2160,
+  "vis": true
+ },
+ {
+  "name": "Unit 6 Agri-tech wonders",
+  "pct": null,
+  "x": 192,
+  "y": 2216,
+  "vis": true
+ },
+ {
+  "name": "Unit 7 Cultivating with nature's tune",
+  "pct": null,
+  "x": 192,
+  "y": 2287,
+  "vis": true
+ },
+ {
+  "name": "Unit 8 Eat right, feel bright",
+  "pct": null,
+  "x": 192,
+  "y": 2358,
+  "vis": true
+ }
+]

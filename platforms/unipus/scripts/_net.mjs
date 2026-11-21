@@ -1,0 +1,13 @@
+import { CDP, sleep } from "./cdp.mjs";
+const tabs = await (await fetch("http://127.0.0.1:9222/json/list")).json();
+let page = tabs.find(t=>t.type==="page");
+const cdp = await CDP.connect(page.webSocketDebuggerUrl);
+await cdp.send("Network.enable");
+await cdp.send("Page.enable");
+const reqs = new Map();
+cdp.on("Network.requestWillBeSent",(p)=>{ if(/api|course|class|tutorial|cmgt/i.test(p.request.url)) reqs.set(p.requestId,p.request.url); });
+await cdp.send("Page.reload",{ignoreCache:true});
+await sleep(9000);
+console.log("CANDIDATE REQUESTS:");
+[...reqs.values()].forEach(u=>console.log(" ",u.slice(0,170)));
+cdp.close();

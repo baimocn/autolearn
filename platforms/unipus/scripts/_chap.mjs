@@ -1,0 +1,10 @@
+import { connect } from "./utlib.mjs";
+const tabs = await (await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd = tabs.find(t => /ucontent\.unipus\.cn/.test(t.url));
+const L = await connect(rd.id);
+const { frames, ev, cdp } = L;
+const tb = (await frames()).find(f => /textbook\/book/.test(f.url) && f.ctx);
+console.log("chapter:", tb.url.slice(60,120));
+const st = await ev(`(()=>{const t=document.body.innerText.replace(/\s+/g,' ');return t.slice(0,220);})()`,tb.ctx).catch(()=>"");
+console.log("head:",st);
+cdp.close();

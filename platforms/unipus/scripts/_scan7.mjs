@@ -1,0 +1,10 @@
+import { connect } from "./utlib.mjs";
+const tabs=await(await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd=tabs.find(t=>/ucontent\.unipus\.cn/.test(t.url));
+const L=await connect(rd.id);const {ev,frames,cdp}=L;
+for(const f of await frames()) if(/textbook\/book/.test(f.url)) console.log("ch",f.url.slice(60,110));
+const tb=(await frames()).find(f=>/textbook\/book/.test(f.url)&&f.ctx);
+const r=await ev(`(()=>{const bs=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')];
+ return bs.map((b,i)=>{const t=(b.innerText||'').replace(/\s+/g,' ');return{i,len:t.length,rec:b.querySelector('[class*=record_record-prepare],[class*=record_record-recording]')?1:0,redo:/重新作答/.test(t),score:(t.match(/得分[:：]\s*(\d+)/)||[])[1]||null,head:t.slice(0,70),tail:t.slice(-60)};}).filter(x=>x.rec||x.redo||/准备时长|点击开始|我的回放/.test(x.tail));})()`,tb.ctx).catch(e=>String(e));
+console.log(JSON.stringify(r,null,1).slice(0,4500));
+cdp.close();

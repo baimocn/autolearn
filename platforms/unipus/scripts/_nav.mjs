@@ -1,0 +1,12 @@
+import { CDP, sleep } from "./cdp.mjs";
+const tabs = await (await fetch("http://127.0.0.1:9222/json/list")).json();
+const page = tabs.find(t=>t.type==="page");
+const cdp = await CDP.connect(page.webSocketDebuggerUrl);
+await cdp.send("Page.enable");
+await cdp.send("Page.navigate",{url:"https://uai.unipus.cn/"});
+await sleep(7000);
+const href = await cdp.send("Runtime.evaluate",{expression:"location.href",returnByValue:true});
+const body = await cdp.send("Runtime.evaluate",{expression:"document.body.innerText.slice(0,300)",returnByValue:true});
+console.log("URL:",href.result.value);
+console.log("BODY:",JSON.stringify(body.result.value).slice(0,350));
+cdp.close();

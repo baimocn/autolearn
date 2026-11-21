@@ -1,0 +1,187 @@
+{
+ "healthy": true,
+ "probeLast": {
+  "blocks": 26,
+  "nonempty": 0,
+  "targetLen": 921,
+  "hasFormGroups": true
+ },
+ "vp": {
+  "x": 212,
+  "y": 215,
+  "matched": "Step-by-step guide"
+ },
+ "loc": {
+  "tag": "DIV",
+  "textLen": 921,
+  "head": "Step 1 Select a villageForm groups of four or five. Each group selects one village in China. When choosing the village, consider the followi",
+  "collapsedHidden": [
+   false
+  ],
+  "scTop": 13098,
+  "scH": 15583,
+  "bodyHasText": true
+ },
+ "net": [
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"CIIhGfPfhEHyvGFH\",\"nodeType\":\"collapsible-block\",\"a\":1794355534336,\"b\":1794355536908}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"VLlPQHpTB6F1VuZV\",\"nodeType\":\"collapsible-block\",\"a\":1794355534336,\"b\":1794355536908}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"r1zHLMWjtAxyrjxZ\",\"nodeType\":\"insert-image\",\"a\":1794355536906,\"b\":1794355539676}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"gHM9z7utEHaheatj\",\"nodeType\":\"base-paragraph\",\"a\":1794355536906,\"b\":1794355539676}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"QXrcfCYEW9y59W5B\",\"nodeType\":\"h2\",\"a\":1794355536906,\"b\":1794355539676}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"CIIhGfPfhEHyvGFH\",\"nodeType\":\"collapsible-block\",\"a\":1794355539676,\"b\":1794355542291}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"VLlPQHpTB6F1VuZV\",\"nodeType\":\"collapsible-block\",\"a\":1794355539676,\"b\":1794355542291}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"QXrcfCYEW9y59W5B\",\"nodeType\":\"h2\",\"a\":1794355542290,\"b\":1794355545845}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"QXrcfCYEW9y59W5B\",\"nodeType\":\"h2\",\"a\":1794355547577,\"b\":1794355547578}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"CIIhGfPfhEHyvGFH\",\"nodeType\":\"collapsible-block\",\"a\":1794355545845,\"b\":1794355548598}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"VLlPQHpTB6F1VuZV\",\"nodeType\":\"collapsible-block\",\"a\":1794355545845,\"b\":1794355548598}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"QXrcfCYEW9y59W5B\",\"nodeType\":\"h2\",\"a\":1794355547577,\"b\":1794355551194}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"CIIhGfPfhEHyvGFH\",\"nodeType\":\"collapsible-block\",\"a\":1794355551193,\"b\":1794355553815}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"VLlPQHpTB6F1VuZV\",\"nodeType\":\"collapsible-block\",\"a\":1794355551193,\"b\":1794355553815}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"QXrcfCYEW9y59W5B\",\"nodeType\":\"h2\",\"a\":1794355553814,\"b\":1794355557482}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"CIIhGfPfhEHyvGFH\",\"nodeType\":\"collapsible-block\",\"a\":1794355557481,\"b\":1794355560017}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"VLlPQHpTB6F1VuZV\",\"nodeType\":\"collapsible-block\",\"a\":1794355557481,\"b\":1794355560017}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"QXrcfCYEW9y59W5B\",\"nodeType\":\"h2\",\"a\":1794355560016,\"b\":1794355562742}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"CIIhGfPfhEHyvGFH\",\"nodeType\":\"collapsible-block\",\"a\":1794355562742,\"b\":1794355565387}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"VLlPQHpTB6F1VuZV\",\"nodeType\":\"collapsible-block\",\"a\":1794355562742,\"b\":1794355565387}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"QXrcfCYEW9y59W5B\",\"nodeType\":\"h2\",\"a\":1794355565386,\"b\":1794355568863}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"CIIhGfPfhEHyvGFH\",\"nodeType\":\"collapsible-block\",\"a\":1794355568862,\"b\":1794355571603}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"6c59c2ec-f8bd-46f8-8506-6a8b25ff9e7b\",\"chapterVersionNumber\":\"V6BFT0a\",\"nodeId\":\"VLlPQHpTB6F1VuZV\",\"nodeType\":\"collapsible-block\",\"a\":1794355568862,\"b\":1794355571603}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  }
+ ],
+ "dom": {
+  "nodeId": "a1aqrW9zHe9iLhYd",
+  "exists": true,
+  "tag": "DIV",
+  "textLen": 921,
+  "text": "Step 1 Select a villageForm groups of four or five. Each group selects one village in China. When choosing the village, consider the following points:Agricultural features: What crops or farming activities is the village known for? Are there unique farming pra",
+  "hasFormGroups": true,
+  "head": "Step 1 Select a villageForm groups of four or five. Each group selects one villa",
+  "bodyHasStep": true,
+  "bodyTail": "roving language skills Agricultural terms Language in use Sentence structure Getting on the stage Step-by-step guide 33.3% Learning from industry experts Vocabulary 33.3% Unit test"
+ },
+ "shot": "shots/U4-u4g588.png"
+}

@@ -1,0 +1,12 @@
+import { ensureReader, CH } from "./reader.mjs";
+import { connect, sleep } from "./utlib.mjs";
+const tid = await ensureReader(1);
+const L = await connect(tid);
+const fl=await L.frames();
+const shell=fl.find(f=>f.url.includes("_ipublishpc_default")||f.url.includes("pc.html"));
+console.log("frames:", fl.map(f=>f.url.slice(0,80)));
+const which = shell||fl[0];
+const ev=async e=>{const r=await L.cdp.send("Runtime.evaluate",{expression:e,returnByValue:true,awaitPromise:true,contextId:which.ctx},L.sessionId);return r.result?.value;};
+const btns=await ev(`[...document.querySelectorAll('button,div,span,a')].map(e=>({t:(e.innerText||'').replace(/\s+/g,' ').trim().slice(0,14),cls:(typeof e.className==='string'?e.className:'').slice(0,40)})).filter(x=>/下一节|上一节|下一[个篇]|上一[个篇]|next|prev/i.test(x.t+x.cls)&&x.t).slice(0,12)`);
+console.log("NAV BUTTONS:",JSON.stringify(btns,null,1));
+L.cdp.close();

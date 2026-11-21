@@ -1,0 +1,25 @@
+{
+ "healthy": true,
+ "probeLast": {
+  "questions": 26,
+  "chapterOK": true
+ },
+ "answered": {
+  "total": 26,
+  "picked": 20,
+  "filled": 6
+ },
+ "submitted": true,
+ "score": null,
+ "resultText": "",
+ "net": [],
+ "dom": {
+  "examUrl": "/0iws4u_bQkCFpqmfcTvdAg/exam/ARpEPuQb6dbje2Rt?bookVersionNumber=VTqvEEI&chapterVersionNumber=V6AZSaN",
+  "textLen": 22183,
+  "head": "AI改写 5 1 7 10 8 3 4 2 9 6 Q æ 编写中 技能点 new 名称变更 删除 评阅 扩写 缩写 润色 写作助手 试题设置 未发布 已下架 已发布 推题得分率设置 ZIP TXT T M D M En Unit test 1 Part I Words and expressions (40 points) 1. Words and phrases Choose the correct word to complete each of the following sentences. 自动判题 计分 1. This experimental plot is designate",
+  "hasScore": false,
+  "scoreSnippet": "",
+  "questions": 26
+ },
+ "shot": "shots/U1-u1g104.png"
+}

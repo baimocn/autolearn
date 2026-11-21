@@ -1,0 +1,50 @@
+{
+ "healthy": true,
+ "probeLast": {
+  "blocks": 27,
+  "nonempty": 21,
+  "targetLen": 3915,
+  "hasOpen": true
+ },
+ "opened": true,
+ "au": {
+  "n": 1,
+  "d": 273,
+  "t": 272
+ },
+ "st": "{\"t\":273,\"d\":273,\"ended\":false}",
+ "hitFin": [
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"HIr7A5VEohcVAYs6\",\"nodeType\":\"question-block\",\"a\":1794331232841,\"b\":1794331232841}"
+  }
+ ],
+ "dom": {
+  "nodeId": "HIr7A5VEohcVAYs6",
+  "exists": true,
+  "len": 3915,
+  "head": "Silk and seeds: China's agrarian threads across time 1. China, one of the cradles of global agriculture, has shared the bounty of its land with the world for millennia. Along the ancient Silk Road, staple crops like rice and soybeans, toget",
+  "hasOpenPill": true,
+  "status": "done",
+  "bodyHasDiscovering": true
+ },
+ "net": [
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"HIr7A5VEohcVAYs6\",\"nodeType\":\"question-block\",\"a\":1794331232841,\"b\":1794331232841}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"YWO10jxwwnZgYHfx\",\"nodeType\":\"h2\",\"a\":1794331253926,\"b\":1794331256822}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"ghNVh84Ut9WeXcRX\",\"nodeType\":\"h3\",\"a\":1794331253926,\"b\":1794331256822}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/readingtime/heartbeat",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\"}"
+  }
+ ],
+ "shot": "shots/U1-u1g68.png"
+}

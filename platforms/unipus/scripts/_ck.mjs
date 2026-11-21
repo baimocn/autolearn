@@ -1,0 +1,14 @@
+import { CDP, sleep } from "./cdp.mjs";
+import { READER, COURSE } from "./reader.mjs";
+const ver=await(await fetch("http://127.0.0.1:9222/json/version")).json();
+const boot=await CDP.connect(ver.webSocketDebuggerUrl);
+const r=await boot.send("Target.createTarget",{url:`${READER}#/${COURSE}/courseware/u1/u1g2`});
+boot.close();
+await sleep(10000);
+const t=(await(await fetch("http://127.0.0.1:9222/json/list")).json()).find(x=>x.id===r.targetId);
+console.log("URL:",t.url.slice(0,180));
+const L=await CDP.connect(t.webSocketDebuggerUrl);
+const ev=async e=>(await L.send("Runtime.evaluate",{expression:e,returnByValue:true,awaitPromise:true})).result?.value;
+console.log("body:",JSON.stringify(await ev("(document.body&&document.body.innerText||'').replace(/\s+/g,' ').slice(0,200)")));
+console.log("has login:",await ev("!!document.querySelector('input[name=username],#username')"));
+L.close();

@@ -1,0 +1,32 @@
+import { ensureReader, CH } from "./reader.mjs";
+import { connect, sleep } from "./utlib.mjs";
+const tid = await ensureReader(1);
+const L = await connect(tid);
+let tb = null;
+for (let k = 0; k < 20 && !tb; k++) { tb = (await L.frames()).find(f => f.url.includes("textbook/book") && f.ctx && f.url.includes(CH[1].slice(0, 12))); if (!tb) await sleep(800); }
+const ev = async (e) => { const r = await L.cdp.send("Runtime.evaluate", { expression: e, returnByValue: true, awaitPromise: true, userGesture: true, contextId: tb.ctx }, L.sessionId); if (r.exceptionDetails) return { __err: ((r.exceptionDetails.exception && r.exceptionDetails.exception.description) || "").slice(0, 150) }; return r.result && r.result.value; };
+const scroll = () => ev(`(()=>{const b=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')][6];if(b)b.scrollIntoView({block:'center'});return 1;})()`);
+await scroll(); await sleep(800);
+const ans = ["plentiful","milpa","polyculture","local community","cultural heritage","first summer rain","species","manage the land","necessary skills","distribute","restoration"];
+await ev(`(()=>{const b=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')][6];
+  const el=[...b.querySelectorAll('[class*=i-button]')].find(e=>((e.innerText||'').replace(/\\s+/g,''))==='重新作答');
+  if(el)el.click();return 1;})()`);
+await sleep(2500); await scroll(); await sleep(1200);
+const f = await ev(`(()=>{
+  const b=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')][6];
+  const els=[...b.querySelectorAll('input[type=text]')];const vals=${JSON.stringify(ans)};
+  const set=Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set;
+  els.forEach((e,k)=>{e.focus();set.call(e,vals[k]??'x');
+    e.dispatchEvent(new Event('input',{bubbles:true}));e.dispatchEvent(new Event('change',{bubbles:true}));e.blur();});
+  return els.map(e=>e.value);})()`);
+console.log("FILLED:", JSON.stringify(f));
+await sleep(400);
+await ev(`(()=>{const b=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')][6];
+  const el=[...b.querySelectorAll('[class*=i-button]')].find(e=>((e.innerText||'').replace(/\\s+/g,''))==='提交');
+  if(el)el.click();return 1;})()`);
+await sleep(5000);
+const sc = await ev(`(()=>{const b=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')][6];
+  const t=(b.innerText||'').replace(/\\s+/g,' ');
+  return {score:(t.match(/得分[:：]?\\s*(\\d+(\\.\\d+)?)/)||[])[1]??null};})()`);
+console.log("SCORE:", JSON.stringify(sc));
+L.cdp.close();

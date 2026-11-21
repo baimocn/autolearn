@@ -1,0 +1,14 @@
+import { ensureReader, CH } from "./reader.mjs";
+import { connect, sleep } from "./utlib.mjs";
+const tid = await ensureReader(1);
+const L = await connect(tid);
+let tb = (await L.frames()).find((f) => f.url.includes("textbook/book") && f.ctx && f.url.includes(CH[1].slice(0, 12)));
+const { ev } = L;
+await ev(`(()=>{const b=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')][13];
+ const el=[...b.querySelectorAll('[class*=i-button_default-container]')].find(e=>e.innerText.replace(/\\s+/g,'')==='提交');
+ if(el)el.click();return !!el;})()`, tb.ctx);
+await sleep(5000);
+const st = await ev(`(()=>{const b=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')][13];const t=b.innerText;
+ return {score:(t.match(/得分[:：]?\\s*(\\d+(\\.\\d+)?)/)||[])[1],redo:/重新作答/.test(t)};})()`, tb.ctx);
+console.log("BLOCK13:", JSON.stringify(st));
+L.cdp.close();

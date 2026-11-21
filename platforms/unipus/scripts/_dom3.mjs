@@ -1,0 +1,12 @@
+import { connect } from "./utlib.mjs";
+const tabs=await(await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd=tabs.find(t=>/ucontent\.unipus\.cn/.test(t.url));
+const L=await connect(rd.id);const {ev,frames,cdp}=L;
+const tb=(await frames()).find(f=>/textbook\/book/.test(f.url)&&f.ctx);
+const r=await ev(`(()=>{const b=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')][3];if(!b)return null;
+ const t=(b.innerText||'').replace(/\s+/g,' ');
+ const btns=[...b.querySelectorAll('[class*=i-button]')].map(e=>({cls:(e.className||'').toString().slice(0,60),t:(e.innerText||'').replace(/\s+/g,'').slice(0,20)}));
+ const leafs=[...b.querySelectorAll('*')].filter(e=>e.children.length===0&&(e.innerText||'').trim()).slice(-25).map(e=>({tag:e.tagName,cls:(e.className||'').toString().slice(0,50),t:(e.innerText||'').replace(/\s+/g,'').slice(0,20)}));
+ return {text:t.slice(0,400),btns,leafs};})()`,tb.ctx).catch(e=>String(e));
+console.log(JSON.stringify(r,null,1).slice(0,4000));
+cdp.close();

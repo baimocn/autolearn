@@ -1,0 +1,88 @@
+{
+ "target": "5F34F4870B8610F34BE19631F5AAC23D",
+ "probe": {
+  "chapterOK": true,
+  "blocks": 26,
+  "nonempty": 0,
+  "cardExists": true,
+  "cardStatus": "done",
+  "hasLogin": false,
+  "hasLimit": false
+ },
+ "pos": {
+  "x": 464,
+  "y": 461,
+  "w": 786,
+  "h": 220
+ },
+ "chk": {
+  "tag": "IMG",
+  "cls": "i-picture_container__1-6CY decorator_coverImage__S"
+ },
+ "score": null,
+ "resultText": "",
+ "passCheck": {
+  "err": "SyntaxError: Unexpected token '<', \"<a href=\"/\"... is not valid JSON"
+ },
+ "states": [
+  {
+   "frame": "https://ucontent.unipus.cn/_ipublishpc_default/pc.html?cid=18336112949",
+   "d": {
+    "url": "https://ucontent.unipus.cn/_ipublishpc_default/pc.html?cid=1833611294963859456&theme=3264FA&ait",
+    "hasScore": false,
+    "scoreSnip": "",
+    "hasStart": false,
+    "hasAgain": false,
+    "hasView": false,
+    "head": "",
+    "btns": [],
+    "modals": []
+   }
+  },
+  {
+   "frame": "https://ipub.unipus.cn/learner/textbook/book/0iws4u_bQkCFpqmfcTvdAg/ch",
+   "d": {
+    "url": "https://ipub.unipus.cn/learner/textbook/book/0iws4u_bQkCFpqmfcTvdAg/chapter/6c59c2ec-f8bd-46f8-",
+    "hasScore": false,
+    "scoreSnip": "",
+    "hasStart": false,
+    "hasAgain": false,
+    "hasView": false,
+    "head": "AI改写 5 1 7 10 8 3 4 2 9 6 Q æ 编写中 技能点 new 名称变更 删除 评阅 扩写 缩写 润色 写作助手 试题设置 未发布 已下架 已发布 推题得分率设置 ZIP TXT T M D M En 返回 新农科大学英语 Learning objectives After co",
+    "btns": [
+     {
+      "t": "返回",
+      "w": 31
+     }
+    ],
+    "modals": [
+     "返回 新农科大学英语 Unit test 4",
+     "返回 新农科大学英语 Unit test 4"
+    ]
+   }
+  },
+  {
+   "frame": "https://ipub.unipus.cn/learner/testing/diagnosis/book/0iws4u_bQkCFpqmf",
+   "d": {
+    "url": "https://ipub.unipus.cn/learner/testing/diagnosis/book/0iws4u_bQkCFpqmfcTvdAg/exam/kijiH3hfSGpWX",
+    "hasScore": false,
+    "scoreSnip": "",
+    "hasStart": false,
+    "hasAgain": false,
+    "hasView": false,
+    "head": "AI改写 5 1 7 10 8 3 4 2 9 6 Q æ 编写中 技能点 new 名称变更 删除 评阅 扩写 缩写 润色 写作助手 试题设置 未发布 已下架 已发布 推题得分率设置 ZIP TXT T M D M En Unit test 4 Part I Words and expression",
+    "btns": [
+     {
+      "t": "提交",
+      "w": 31
+     }
+    ],
+    "modals": [
+     ""
+    ]
+   }
+  }
+ ],
+ "shot": "shots/U4-u4g813.png",
+ "pre": "shots/U4-u4g813-pre.png"
+}

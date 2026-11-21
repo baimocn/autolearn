@@ -1,0 +1,41 @@
+{
+ "target": "5F34F4870B8610F34BE19631F5AAC23D",
+ "started": true,
+ "nq": 13,
+ "answered": {
+  "total": 13,
+  "picked": 13,
+  "filled": 0
+ },
+ "submitted": true,
+ "scorePosted": false,
+ "score": null,
+ "resultText": "",
+ "passInfo": {
+  "src": "SPA-response",
+  "pass": 0,
+  "pass2": 0,
+  "state": {
+   "pass": 0,
+   "pass2": 0,
+   "perm": 1
+  }
+ },
+ "localPass": 0,
+ "progUrls": [
+  "urse-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u4/5cb554a204db411aa8958f116769407f/default",
+  "/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/5cb554a204db411aa8958f116769407f/default",
+  "urse-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u5/5cb554a204db411aa8958f116769407f/default",
+  "urse-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u3/5cb554a204db411aa8958f116769407f/default",
+  "urse-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u6/5cb554a204db411aa8958f116769407f/default",
+  "urse-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u7/5cb554a204db411aa8958f116769407f/default",
+  "urse-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u2/5cb554a204db411aa8958f116769407f/default",
+  "urse-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u1/5cb554a204db411aa8958f116769407f/default",
+  "urse-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u8/5cb554a204db411aa8958f116769407f/default"
+ ],
+ "dom": {
+  "https://ucontent.unipus.cn/_ipublishpc_default/pc.html?cid=1": "本单元学习规则 是否必修 单元有效期 过关条件 必修 无限制 无限制 我知道了",
+  "https://ipub.unipus.cn/learner/textbook/book/0iws4u_bQkCFpqm": "AI改写 5 1 7 10 8 3 4 2 9 6 Q æ 编写中 技能点 new 名称变更 删除 评阅 扩写 缩写 润色 写作助手 试题设置 未发布 已下架 已发布 推题得分率设置 ZIP TXT T M D M En 返回 新农科大学英语 Learning objectives After completing this unit, you will be able to: talk about the history of America's pick-your-own farms and the importance of agritourism; analyze the factors driving the rise of rural tourism in China and examine its impacts; write a cause-and-effect essay"
+ },
+ "shot": "shots/U4-u4g813.png"
+}

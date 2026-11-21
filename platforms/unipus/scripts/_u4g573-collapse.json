@@ -1,0 +1,228 @@
+{
+ "targetIdx": 21,
+ "anc": [],
+ "cols": [
+  {
+   "cls": "editor-base-collapsible-container editor-collapsible-block",
+   "h": 70,
+   "bodyH": 0,
+   "hidden": true,
+   "containsTarget": false
+  },
+  {
+   "cls": "editor-base-collapsible-container editor-collapsible-block",
+   "h": 70,
+   "bodyH": 0,
+   "hidden": true,
+   "containsTarget": false
+  },
+  {
+   "cls": "editor-base-collapsible-container editor-collapsible-block",
+   "h": 70,
+   "bodyH": 0,
+   "hidden": true,
+   "containsTarget": false
+  },
+  {
+   "cls": "editor-base-collapsible-container editor-collapsible-block",
+   "h": 70,
+   "bodyH": 0,
+   "hidden": true,
+   "containsTarget": false
+  },
+  {
+   "cls": "editor-base-collapsible-container editor-collapsible-block",
+   "h": 263,
+   "bodyH": 185,
+   "hidden": false,
+   "containsTarget": false
+  },
+  {
+   "cls": "editor-base-collapsible-container editor-collapsible-block",
+   "h": 88,
+   "bodyH": 0,
+   "hidden": true,
+   "containsTarget": false
+  },
+  {
+   "cls": "editor-base-collapsible-container editor-collapsible-block",
+   "h": 88,
+   "bodyH": 0,
+   "hidden": true,
+   "containsTarget": false
+  },
+  {
+   "cls": "editor-base-collapsible-container editor-collapsible-block",
+   "h": 88,
+   "bodyH": 0,
+   "hidden": true,
+   "containsTarget": false
+  }
+ ],
+ "colTotal": 8,
+ "per": [
+  {
+   "i": 0,
+   "s": "loading",
+   "len": 0,
+   "anchor": "sdNi48szhZJVtDR4"
+  },
+  {
+   "i": 1,
+   "s": "loading",
+   "len": 0,
+   "anchor": "nsAHrqQLtUgaKj08"
+  },
+  {
+   "i": 2,
+   "s": "loading",
+   "len": 0,
+   "anchor": "fWcrJ5wc8p3jSzIK"
+  },
+  {
+   "i": 3,
+   "s": "loading",
+   "len": 0,
+   "anchor": "QccBqYFanwQjBJZ8"
+  },
+  {
+   "i": 4,
+   "s": "loading",
+   "len": 0,
+   "anchor": "fXq27QwvG13GFqit"
+  },
+  {
+   "i": 5,
+   "s": "loading",
+   "len": 0,
+   "anchor": "uQkdolDre8OPTygY"
+  },
+  {
+   "i": 6,
+   "s": "loading",
+   "len": 0,
+   "anchor": "QwfBnQkU1k3KoG9P"
+  },
+  {
+   "i": 7,
+   "s": "loading",
+   "len": 0,
+   "anchor": "q8qqhIjBFxfNI3ZH"
+  },
+  {
+   "i": 8,
+   "s": "loading",
+   "len": 0,
+   "anchor": "mCPsDGpl1G9XY9Rv"
+  },
+  {
+   "i": 9,
+   "s": "loading",
+   "len": 0,
+   "anchor": "KpIynXGRYNo3LRkr"
+  },
+  {
+   "i": 10,
+   "s": "loading",
+   "len": 0,
+   "anchor": "HQ309LmWFfRv4YRA"
+  },
+  {
+   "i": 11,
+   "s": "loading",
+   "len": 0,
+   "anchor": "jSxXfovFBRUjuL7A"
+  },
+  {
+   "i": 12,
+   "s": "loading",
+   "len": 0,
+   "anchor": "SjAQ4vlPrOZHxnN6"
+  },
+  {
+   "i": 13,
+   "s": "loading",
+   "len": 0,
+   "anchor": "OpgT2cTSXfbEk1WE"
+  },
+  {
+   "i": 14,
+   "s": "loading",
+   "len": 0,
+   "anchor": "MQ9GGrDhFVdr8NiF"
+  },
+  {
+   "i": 15,
+   "s": "loading",
+   "len": 0,
+   "anchor": "XNEcaezDiEmgLIMc"
+  },
+  {
+   "i": 16,
+   "s": "loading",
+   "len": 0,
+   "anchor": "oMrcWJawhYiLWVMS"
+  },
+  {
+   "i": 17,
+   "s": "loading",
+   "len": 0,
+   "anchor": "AMqbWtNTbj04wTJm"
+  },
+  {
+   "i": 18,
+   "s": "loading",
+   "len": 0,
+   "anchor": "Bt2x2Q8zZGSbSI5s"
+  },
+  {
+   "i": 19,
+   "s": "loading",
+   "len": 0,
+   "anchor": "NsTLVAgMLXVBpBJ3"
+  },
+  {
+   "i": 20,
+   "s": "loading",
+   "len": 0,
+   "anchor": "CMo3JMPXoM5gEl44"
+  },
+  {
+   "i": 21,
+   "s": "loading",
+   "len": 0,
+   "anchor": "VhDiwq6t7LToLXyo"
+  },
+  {
+   "i": 22,
+   "s": "loading",
+   "len": 0,
+   "anchor": "GA8ws0VfufjjeFlE"
+  },
+  {
+   "i": 23,
+   "s": "loading",
+   "len": 0,
+   "anchor": "TekH356oSpochvR1"
+  },
+  {
+   "i": 24,
+   "s": "loading",
+   "len": 0,
+   "anchor": "fsDv3e3PYyvNgO1k"
+  },
+  {
+   "i": 25,
+   "s": "loading",
+   "len": 0,
+   "anchor": "UqG0sJ7T45vvh3z8"
+  }
+ ],
+ "targetHTML": "<div data-lexical-node-type=\"question-block\" data-lexical-node-status=\"loading\" data-node-key=\"382\" class=\"editor-question-block questionBlockNode\" data-lexical-decorator=\"true\" contenteditable=\"false\" data-lexical-node-anchor=\"VhDiwq6t7LToLXyo\" id=\"VhDiwq6t7LToLXyo\"><div class=\"ant-spin-nested-loading css-1avs2lc\"><div class=\"ant-spin-container\"><div data-ipublish-style-font=\"fixation\" id=\"VhDiwq6t7LToLXyo==cUGePVWvStGww1UJ\" class=\"i-question_i-question-container__2po-e\" data-ipublish-question-group-type=\"multi_media_upload_group\"><div class=\"i-loading_absolute-container__132LF\"><div class=\"a",
+ "scroll": {
+  "scTop": 0,
+  "scH": 712,
+  "innerH": 712
+ },
+ "bodyLen": 8980
+}

@@ -1,0 +1,11 @@
+import { connect, sleep } from "./utlib.mjs";
+const tabs=await(await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd=tabs.find(t=>/ucontent/.test(t.url));
+console.log("URL:",rd.url.slice(0,220));
+const L=await connect(rd.id);
+const {ev,frames}=L;
+console.log("hash:",await ev("location.hash"));
+console.log("body:",JSON.stringify(await ev("(document.body.innerText||'').replace(/\s+/g,' ').slice(0,220)")));
+const fl=await frames();
+console.log("frames:",fl.map(f=>f.url.slice(0,90)));
+L.cdp.close();

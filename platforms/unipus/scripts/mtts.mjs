@@ -7,12 +7,13 @@ import { execSync } from "node:child_process";
 
 const IN = process.argv[2];
 const OUT = process.argv[3];
-const PROXY = process.env.HTTPS_PROXY || process.env.https_proxy || "http://127.0.0.1:62435";
+const PROXY = process.env.TTS_PROXY !== undefined ? process.env.TTS_PROXY : (process.env.HTTPS_PROXY || process.env.https_proxy || "http://127.0.0.1:62435");
+const PX = PROXY ? (" --proxy " + PROXY + " ") : " ";
 const raw = fs.readFileSync(IN, "utf8").replace(/\s+/g, " ").trim();
 
 function tryEdge() {
   try {
-    execSync(`edge-tts --proxy ${PROXY} --voice en-US-AriaNeural --file "${IN}" --write-media "${OUT}"`, { stdio: "pipe", timeout: 90000 });
+    execSync(`edge-tts ${PX}--voice en-US-AriaNeural --file "${IN}" --write-media "${OUT}"`, { stdio: "pipe", timeout: 90000 });
     const d = Number(execSync(`ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "${OUT}"`).toString().trim());
     if (d > 1) return d;
   } catch {}
@@ -52,7 +53,7 @@ function google() {
     let ok = false;
     for (let k = 0; k < 3 && !ok; k++) {
       try {
-        execSync(`curl -s -x ${PROXY} --max-time 20 -A "Mozilla/5.0" "https://translate.google.com/translate_tts?ie=UTF-8&q=${q}&tl=en&client=tw-ob" -o "${f}"`, { stdio: "pipe" });
+        execSync(`curl -s ${PROXY ? ("-x " + PROXY) : ""} --max-time 20 -A "Mozilla/5.0" "https://translate.google.com/translate_tts?ie=UTF-8&q=${q}&tl=en&client=tw-ob" -o "${f}"`, { stdio: "pipe" });
         ok = fs.existsSync(f) && fs.statSync(f).size > 2000;
       } catch {}
     }

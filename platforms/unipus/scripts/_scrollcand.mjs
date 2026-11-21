@@ -1,0 +1,10 @@
+import { connect } from "./utlib.mjs";
+const tabs=await(await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd=tabs.find(t=>/ucontent/.test(t.url));
+const L=await connect(rd.id);
+const fl=await L.frames();
+const tb=fl.find(f=>f.url.includes("textbook/book")&&f.ctx);
+const ev=async(e)=>{const r=await L.cdp.send("Runtime.evaluate",{expression:e,returnByValue:true,awaitPromise:true,contextId:tb.ctx},L.sessionId);return r.result?.value;};
+const c=await ev(`(()=>{const out=[];[...document.querySelectorAll('*')].forEach(e=>{const cn=(typeof e.className==='string'?e.className:'');if(/catalog|tree-menu|drawer/i.test(cn)&&e.scrollHeight>e.clientHeight+20){const b=e.getBoundingClientRect();out.push({cls:cn.slice(0,50),sh:e.scrollHeight,ch:e.clientHeight,w:Math.round(b.width),h:Math.round(b.height)});}});return out.slice(0,10);})()`);
+console.log(JSON.stringify(c,null,1));
+L.cdp.close();

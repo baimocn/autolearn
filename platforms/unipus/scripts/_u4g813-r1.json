@@ -1,0 +1,89 @@
+{
+ "target": "5F34F4870B8610F34BE19631F5AAC23D",
+ "healthy": true,
+ "probe": {
+  "chapterOK": true,
+  "blocks": 26,
+  "nonempty": 0,
+  "bodyLen": 15812,
+  "hasLogin": false,
+  "hasLimit": false,
+  "cardExists": true,
+  "cardStatus": "done"
+ },
+ "cardPos": {
+  "x": 464,
+  "y": 461,
+  "w": 786,
+  "h": 220,
+  "status": "done",
+  "txt": ""
+ },
+ "chk": {
+  "tag": "IMG",
+  "cls": "i-picture_container__1-6CY decorator_coverImage__SqEO-",
+  "txt": ""
+ },
+ "frameEv": [
+  {
+   "frame": "https://ucontent.unipus.cn/_ipublishpc_default/pc.html?cid=1833611294963859456&theme=3264F",
+   "d": {
+    "url": "https://ucontent.unipus.cn/_ipublishpc_default/pc.html?cid=1833611294963859456&theme=3264F",
+    "textLen": 0,
+    "hasStart": false,
+    "hasScore": false,
+    "hasSubmitScore": false,
+    "head": "",
+    "btns": [],
+    "modals": []
+   }
+  },
+  {
+   "frame": "https://ipub.unipus.cn/learner/textbook/book/0iws4u_bQkCFpqmfcTvdAg/chapter/6c59c2ec-f8bd-",
+   "d": {
+    "url": "https://ipub.unipus.cn/learner/textbook/book/0iws4u_bQkCFpqmfcTvdAg/chapter/6c59c2ec-f8bd-",
+    "textLen": 9087,
+    "hasStart": true,
+    "hasScore": false,
+    "hasSubmitScore": false,
+    "head": "AI改写\n5\n1\n7\n10\n8\n3\n4\n2\n9\n6\nQ\næ\n编写中\n技能点\nnew\n名称变更\n删除\n评阅\n扩写\n缩写\n润色\n写作助手\n试题设置\n未发布\n已下架\n已发布\n推题得分率设置\nZIP\nTXT\nT\nM D\nM\nEn\n返回\n新农科大学英语\n\n\n\n\n\n\n\nLearning objective \n\nAfter completing thi  unit, you will be able to:\n\ntalk about the hi tory of America'  pick",
+    "btns": [
+     {
+      "t": "返回",
+      "w": 65,
+      "x": 65,
+      "y": 44
+     },
+     {
+      "t": "返回",
+      "w": 31,
+      "x": 65,
+      "y": 44
+     },
+     {
+      "t": "开始答题",
+      "w": 97,
+      "x": 640,
+      "y": 542
+     },
+     {
+      "t": "开始答题",
+      "w": 63,
+      "x": 640,
+      "y": 543
+     }
+    ],
+    "modals": [
+     {
+      "txt": "Unit te t 4\n 考前须知\n欢迎参加单元诊断测试！完成测试后，系统会为你生成一份详细的测试报告，帮你清晰了解自己的掌握情况。别担心结果，系统会根据你的答题情况，智能推荐最适合你的练习题，帮你巩固薄弱点、查漏补缺，让学习更高效！放松心情，认真作答就好。加油！\n开始答题"
+     },
+     {
+      "txt": "Unit te t 4\n 考前须知\n欢迎参加单元诊断测试！完成测试后，系统会为你生成一份详细的测试报告，帮你清晰了解自己的掌握情况。别担心结果，系统会根据你的答题情况，智能推荐最适合你的练习题，帮你巩固薄弱点、查漏补缺，让学习更高效！放松心情，认真作答就好。加油！\n开始答题"
+     }
+    ]
+   }
+  }
+ ],
+ "shot": "shots/U4-u4g813.png",
+ "pre": "shots/U4-u4g813-pre.png"
+}

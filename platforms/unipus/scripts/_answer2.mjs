@@ -1,0 +1,12 @@
+import { connect } from "./utlib.mjs";
+const tabs=await(await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd=tabs.find(t=>/ucontent\.unipus\.cn/.test(t.url));
+const L=await connect(rd.id);const {ev,frames,cdp}=L;
+const tb=(await frames()).find(f=>/textbook\/book/.test(f.url)&&f.ctx);
+const r=await ev(`(()=>{const bs=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')];
+ const out=[];
+ bs.forEach((b,i)=>{const t=(b.innerText||'').replace(/\s+/g,' ');
+  if(/重新作答|我的回放|录音结束|点击开始|准备时长/.test(t))out.push({i,len:t.length,rec:b.querySelector('[class*=record_]')?1:0,text:t.slice(0,1200)});});
+ return out;})()`,tb.ctx).catch(e=>String(e));
+console.log(JSON.stringify(r,null,1).slice(0,7000));
+cdp.close();

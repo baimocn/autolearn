@@ -1,0 +1,420 @@
+AI改写
+5
+1
+7
+10
+8
+3
+4
+2
+9
+6
+Q
+æ
+编写中
+技能点
+new
+名称变更
+删除
+评阅
+扩写
+缩写
+润色
+写作助手
+试题设置
+未发布
+已下架
+已发布
+推题得分率设置
+ZIP
+TXT
+T
+M D
+M
+En
+Unit test 7
+
+Part I Words and expressions (40 points)
+
+1. Words and phrases
+
+Choose the correct word to complete each of the following sentences.
+
+
+
+
+Select and fill in the correct expression to complete each of the following sentences.
+
+自动判题
+计分
+all told
+reach out
+tune in
+up in the air
+teem with
+9.
+
+Local agricultural extension officers were encouraged to  to isolated smallholders to share best practices in pest management.
+
+自动判题
+计分
+all told
+reach out
+tune in
+up in the air
+teem with
+10.
+
+The seasonal drought, soil degradation, and rising fertilizer costs reduced the farm's overall output by nearly 30 percent, .
+
+自动判题
+计分
+all told
+reach out
+tune in
+up in the air
+teem with
+11.
+
+After the implementation of wetland restoration, the rice paddies began to  biodiversity – from native frogs to beneficial insects.
+
+自动判题
+计分
+all told
+reach out
+tune in
+up in the air
+teem with
+12.
+
+With new land-use regulations pending approval, the cooperative's expansion plan remained  until further government clarification.
+
+
+
+
+2. Technical terms
+
+Choose the correct explanation for each technical term.
+
+自动判题
+计分
+13.
+
+ecoacoustics
+
+A
+
+A technique for mapping ocean currents with underwater microphones.
+
+B
+
+A field that studies ecological changes through sound patterns in nature.
+
+C
+
+A method of using sound waves to measure tree height and canopy size.
+
+D
+
+A study for measuring fungi growth with sound devices in a wild forest.
+
+自动判题
+计分
+14.
+
+biosphere
+
+A
+
+The layer of gases that surrounds the planet.
+
+B
+
+A planet's frozen regions that store freshwater.
+
+C
+
+The regions of the earth where living organisms exist.
+
+D
+
+A protective layer around the earth that blocks radiation.
+
+自动判题
+计分
+15.
+
+biodiverse habitat
+
+A
+
+A protected area where hunting is allowed under regulation.
+
+B
+
+A farmland reserved for cultivating high-yield crop varieties.
+
+C
+
+A natural environment with a wide variety of living species.
+
+D
+
+A laboratory simulating extreme environmental conditions.
+
+自动判题
+计分
+16.
+
+deforested plot
+
+A
+
+A piece of land that has been cleared of trees, often for agriculture.
+
+B
+
+A plot of land used for growing mushrooms under shade.
+
+C
+
+A natural forest that has been left untouched by humans.
+
+D
+
+A wetland area drained for commercial construction projects.
+
+自动判题
+计分
+17.
+
+ecological symbiosis
+
+A
+
+The process of natural selection in changing ecosystems.
+
+B
+
+A relationship where one species exploits another harmfully.
+
+C
+
+A long-term interaction between species that benefits at least one.
+
+D
+
+A temporary food web formed in extreme environments.
+
+自动判题
+计分
+18.
+
+aquatic animals
+
+A
+
+Creatures that can live without water for long periods.
+
+B
+
+Animals that spend most of their lives underground.
+
+C
+
+Species that live and thrive in water environments.
+
+D
+
+Animals bred for desert survival and drought resistance.
+
+自动判题
+计分
+19.
+
+herbicide
+
+A
+
+A chemical compound specifically targeting insect pests on crops.
+
+B
+
+A liquid treatment applied to enhance leaf appearance and gloss.
+
+C
+
+A plant-killing agent used to control weeds and vegetation.
+
+D
+
+A fertilizer mixture formulated to stimulate deep root systems.
+
+自动判题
+计分
+20.
+
+larvae
+
+A
+
+The mature winged stage of insects after metamorphosis occurs.
+
+B
+
+The juvenile worm-shaped form in an insect's development cycle.
+
+C
+
+The reproductive spores that allow fungi to spread and multiply.
+
+D
+
+The protective husk remaining after grain processing is completed.
+
+
+
+
+Part II Reading comprehension (30 points)
+
+Read the passage and choose the best answer to each question or unfinished statement.
+
+自动判题
+计分
+
+When we think of biodiversity, usually our minds conjure up colorful, lush images of plants, animals, and birds. Maybe you even think of crazy-looking insects. But what most of us rarely consider when we think of biodiversity is the world beneath our feet.
+
+
+
+
+In fact, more creatures live in soil than in any other environment on the earth – worms, archaea, bacteria, fungi, and countless other microbes. A recent study published in Nature Communications has shown that this below-ground biodiversity greatly contributes to the functionality of ecosystems, and is as affected by climate change as much as above-ground biodiversity, though in different ways.
+
+
+
+
+The soil beneath your feet is home to vast and complex webs of life. Soil, rock, and water are their mediums, and many of their interactions have an impact on all life above ground that we're only barely beginning to grasp.
+
+
+
+
+A lot of activity occurs near the surface, involving familiar players like worms, bacteria, fungi, mites, and insects. A good number of them are cleaning and decomposing dead material and recycling nutrients and energy back into the soil to be picked up by plants and have another go around the merry-go-round of life. Some prey on each other, with worms feeding on bacteria or other worms, and mites preying on mites.
+
+
+
+
+And even more do things we don't fully understand – bacteria that consume electricity, tardigrades that survive in space, and the Devil Worm, which lives miles underground in extreme conditions.
+
+
+
+
+For all of our lack of knowledge of the world below, the study points out that one thing is certain: Soil sustains life above ground. Researchers from Peking University and the University of Copenhagen tried to measure the impact of below-ground biodiversity on ecosystem functions. It is already widely known that biodiversity has a large positive impact on the productivity of an ecosystem, but the underground diversity of life is not often taken into consideration when measuring these impacts. The researchers carried out their study on the Qinghai-Tibet Plateau, which has extensive climate variation, and found that despite the changes in precipitation, temperature, and acidity, the soil biodiversity had a significant impact – 32 percent – on the variation of the ecosystem's functionality as a whole.
+
+
+
+
+Within a gram of soil could lie more species than all of the vertebrates on the earth. Given what we already know about the roles critters underground play in carbon storage and nutrient recycling, coupled with the rising demands for food and the impacts climate change will have on agriculture, it only makes sense to learn as much as we can about the myriad organisms that live in the soil, and how they interact. Thus, we can better predict how environments will be affected by climate change – and how we can adapt.
+
+21.
+
+What key message about soil biodiversity does the passage emphasize?
+
+A
+
+It is already included in most ecological assessments and management frameworks today.
+
+B
+
+It contributes little compared with visible organisms in terms of ecosystem performance.
+
+C
+
+It remains underappreciated despite its vital role in supporting surface life systems.
+
+D
+
+It is dominated by ancient species adapted to unusual underground living conditions.
+
+自动判题
+计分
+
+When we think of biodiversity, usually our minds conjure up colorful, lush images of plants, animals, and birds. Maybe you even think of crazy-looking insects. But what most of us rarely consider when we think of biodiversity is the world beneath our feet.
+
+
+
+
+In fact, more creatures live in soil than in any other environment on the earth – worms, archaea, bacteria, fungi, and countless other microbes. A recent study published in Nature Communications has shown that this below-ground biodiversity greatly contributes to the functionality of ecosystems, and is as affected by climate change as much as above-ground biodiversity, though in different ways.
+
+
+
+
+The soil beneath your feet is home to vast and complex webs of life. Soil, rock, and water are their mediums, and many of their interactions have an impact on all life above ground that we're only barely beginning to grasp.
+
+
+
+
+A lot of activity occurs near the surface, involving familiar players like worms, bacteria, fungi, mites, and insects. A good number of them are cleaning and decomposing dead material and recycling nutrients and energy back into the soil to be picked up by plants and have another go around the merry-go-round of life. Some prey on each other, with worms feeding on bacteria or other worms, and mites preying on mites.
+
+
+
+
+And even more do things we don't fully understand – bacteria that consume electricity, tardigrades that survive in space, and the Devil Worm, which lives miles underground in extreme conditions.
+
+
+
+
+For all of our lack of knowledge of the world below, the study points out that one thing is certain: Soil sustains life above ground. Researchers from Peking University and the University of Copenhagen tried to measure the impact of below-ground biodiversity on ecosystem functions. It is already widely known that biodiversity has a large positive impact on the productivity of an ecosystem, but the underground diversity of life is not often taken into consideration when measuring these impacts. The researchers carried out their study on the Qinghai-Tibet Plateau, which has extensive climate variation, and found that despite the changes in precipitation, temperature, and acidity, the soil biodiversity had a significant impact – 32 percent – on the variation of the ecosystem's functionality as a whole.
+
+
+
+
+Within a gram of soil could lie more species than all of the vertebrates on the earth. Given what we already know about the roles critters underground play in carbon storage and nutrient recycling, coupled with the rising demands for food and the impacts climate change will have on agriculture, it only makes sense to learn as much as we can about the myriad organisms that live in the soil, and how they interact. Thus, we can better predict how environments will be affected by climate change – and how we can adapt.
+
+22.
+
+What does the passage imply about current scientific understanding of soil organisms?
+
+A
+
+Their ecosystem roles are fully understood through modern microbiological research.
+
+B
+
+Their importance is small compared to plants and animals living above ground.
+
+C
+
+Their survival depends mostly on environments with low oxygen and no sunlight.
+
+D
+
+Their ecological contributions are often unclear and are still being actively studied.
+
+自动判题
+计分
+
+When we think of biodiversity, usually our minds conjure up colorful, lush images of plants, animals, and birds. Maybe you even think of crazy-looking insects. But what most of us rarely consider when we think of biodiversity is the world beneath our feet.
+
+
+
+
+In fact, more creatures live in soil than in any other environment on the earth – worms, archaea, bacteria, fungi, and countless other microbes. A recent study published in Nature Communications has shown that this below-ground biodiversity greatly contributes to the functionality of ecosystems, and is as affected by climate change as much as above-ground biodiversity, though in different ways.
+
+
+
+
+The soil beneath your feet is home to vast and complex webs of life. Soil, rock, and water are their mediums, and many of their interactions have an impact on all life above ground that we're only barely beginning to grasp.
+
+
+
+
+A lot of activity occurs near the surface, involving familiar players like worms, bacteria, fungi, mites, and insects. A good number of them are cleaning and decomposing dead material and recycling nutrients and energy back into the soil to be picked up by plants and have another go around the merry-go-round of life. Some prey on each other, with worms feeding on bacteria or other worms, and mites preying on mites.
+
+
+
+
+And even more do things we don't fully understand – bacteria that consume electricity, tardigrades that survive in space, and the Devil Worm, which lives miles underground in extreme conditions.
+
+
+
+
+For all of our lack of knowledge of the world below, the study points out that one thing is certain: Soil sustains life above ground. Researchers from Peking University and the University of Copenhagen tried to measure the impact of below-ground bio

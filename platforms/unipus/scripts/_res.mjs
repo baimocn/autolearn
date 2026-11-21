@@ -1,0 +1,11 @@
+import { connect, sleep } from "./utlib.mjs";
+import fs from "node:fs";
+const tabs = await (await fetch("http://127.0.0.1:9222/json/list")).json();
+const t = tabs.find(x => /resource-detail/.test(x.url));
+const L = await connect(t.id);
+const { ev, cdp, sessionId } = L;
+const r = await ev(`(()=>{const t=document.body.innerText.replace(/\s+/g,' ');return {url:location.href, txt:t.slice(0,1600)};})()`);
+console.log(JSON.stringify(r,null,1));
+const { data } = await cdp.send("Page.captureScreenshot", { format: "png" }, sessionId);
+fs.writeFileSync("res-detail.png", Buffer.from(data, "base64"));
+cdp.close();

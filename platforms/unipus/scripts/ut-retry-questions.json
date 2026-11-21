@@ -1,0 +1,222 @@
+[
+ {
+  "i": 0,
+  "type": "choice",
+  "stem": "1.\n\nFarmers' participation is ________ to the success of rural revitalization programs.\n\nA\n\noptional\n\nB\n\noptimal\n\nC\n\npartial\n\nD\n\npivotal",
+  "opts": [
+   "A:A\n\noptional",
+   "B:B\n\noptimal",
+   "C:C\n\npartial",
+   "D:D\n\npivotal"
+  ]
+ },
+ {
+  "i": 1,
+  "type": "choice",
+  "stem": "2.\n\nThe speaker used social media to ________ her message about food sustainability.\n\nA\n\nintensify\n\nB\n\namplify\n\nC\n\nexemplify\n\nD\n\nspecify",
+  "opts": [
+   "A:A\n\nintensify",
+   "B:B\n\namplify",
+   "C:C\n\nexemplify",
+   "D:D\n\nspecify"
+  ]
+ },
+ {
+  "i": 2,
+  "type": "choice",
+  "stem": "3.\n\nThe scientist ________ his life to environmental protection and sustainable farming.\n\nA\n\ndonated\n\nB\n\ndedicated\n\nC\n\ndescribed\n\nD\n\nspecified",
+  "opts": [
+   "A:A\n\ndonated",
+   "B:B\n\ndedicated",
+   "C:C\n\ndescribed",
+   "D:D\n\nspecified"
+  ]
+ },
+ {
+  "i": 3,
+  "type": "choice",
+  "stem": "4.\n\nThe region is known for its traditional ________, which uses fresh herbs and seasonal vegetables.\n\nA\n\nculture\n\nB\n\ncuisine\n\nC\n\ncostume\n\nD\n\ncustom",
+  "opts": [
+   "A:A\n\nculture",
+   "B:B\n\ncuisine",
+   "C:C\n\ncostume",
+   "D:D\n\ncustom"
+  ]
+ },
+ {
+  "i": 4,
+  "type": "choice",
+  "stem": "5.\n\nWater conflicts between neighboring villages may ________ if no agreement is reached.\n\nA\n\nexpand\n\nB\n\nescalate\n\nC\n\nextend\n\nD\n\nenlarge",
+  "opts": [
+   "A:A\n\nexpand",
+   "B:B\n\nescalate",
+   "C:C\n\nextend",
+   "D:D\n\nenlarge"
+  ]
+ },
+ {
+  "i": 5,
+  "type": "choice",
+  "stem": "6.\n\nAfter an unexpected frost wiped out the early crops, communities faced a sudden ________ for water and food supplies as panic spread.\n\nA\n\nstruggle\n\nB\n\nscramble\n\nC\n\nstrive\n\nD\n\nstrike",
+  "opts": [
+   "A:A\n\nstruggle",
+   "B:B\n\nscramble",
+   "C:C\n\nstrive",
+   "D:D\n\nstrike"
+  ]
+ },
+ {
+  "i": 6,
+  "type": "choice",
+  "stem": "7.\n\nThe region saw an ________ level of rainfall, causing severe flooding in low-lying areas.\n\nA\n\nunusual\n\nB\n\nunexpected\n\nC\n\nunprecedented\n\nD\n\nuneven",
+  "opts": [
+   "A:A\n\nunusual",
+   "B:B\n\nunexpected",
+   "C:C\n\nunprecedented",
+   "D:D\n\nuneven"
+  ]
+ },
+ {
+  "i": 12,
+  "type": "choice",
+  "stem": "13.\n\ngastronomy\n\nA\n\nThe scientific study of plant and animal farming.\n\nB\n\nThe art and science of preparing and enjoying good food.\n\nC\n\nThe study of how food affects the human body.\n\nD\n\nThe preservation of food ",
+  "opts": [
+   "A:A\n\nThe scientific study of plant and anima",
+   "B:B\n\nThe art and science of preparing and en",
+   "C:C\n\nThe study of how food affects the human",
+   "D:D\n\nThe preservation of food through tradit"
+  ]
+ },
+ {
+  "i": 13,
+  "type": "choice",
+  "stem": "14.\n\nhorticulturalist\n\nA\n\nA specialist in cultivating garden plants, fruits, and flowers.\n\nB\n\nA professional who manages soil fertility for large-scale farms.\n\nC\n\nA scientist who studies weather patterns and cl",
+  "opts": [
+   "A:A\n\nA specialist in cultivating garden plan",
+   "B:B\n\nA professional who manages soil fertili",
+   "C:C\n\nA scientist who studies weather pattern",
+   "D:D\n\nA technician who operates greenhouse ma"
+  ]
+ },
+ {
+  "i": 14,
+  "type": "choice",
+  "stem": "15.\n\nentomologist\n\nA\n\nA researcher who analyzes the chemical makeup of fertilizers.\n\nB\n\nA doctor who studies the migration of birds in agricultural zones.\n\nC\n\nA scientist who studies the behavior and biology of",
+  "opts": [
+   "A:A\n\nA researcher who analyzes the chemical ",
+   "B:B\n\nA doctor who studies the migration of b",
+   "C:C\n\nA scientist who studies the behavior an",
+   "D:D\n\nA conservationist who protects endanger"
+  ]
+ },
+ {
+  "i": 15,
+  "type": "choice",
+  "stem": "16.\n\npick-your-own farm\n\nA\n\nA farm offering guided tours and machinery demonstrations.\n\nB\n\nA farm that sells pre-packed organic food.\n\nC\n\nA research farm testing new crop varieties.\n\nD\n\nA farm where visitors ha",
+  "opts": [
+   "A:A\n\nA farm offering guided tours and machin",
+   "B:B\n\nA farm that sells pre-packed organic fo",
+   "C:C\n\nA research farm testing new crop variet",
+   "D:D\n\nA farm where visitors harvest their own"
+  ]
+ },
+ {
+  "i": 16,
+  "type": "choice",
+  "stem": "17.\n\ncannery\n\nA\n\nA factory where fruit is processed into juice.\n\nB\n\nA factory that processes and seals food in containers.\n\nC\n\nA laboratory where new food crops are developed.\n\nD\n\nA warehouse where grains are s",
+  "opts": [
+   "A:A\n\nA factory where fruit is processed into",
+   "B:B\n\nA factory that processes and seals food",
+   "C:C\n\nA laboratory where new food crops are d",
+   "D:D\n\nA warehouse where grains are stored bef"
+  ]
+ },
+ {
+  "i": 17,
+  "type": "choice",
+  "stem": "18.\n\nagritourism\n\nA\n\nA form of tourism where people learn about food markets.\n\nB\n\nA type of rural travel involving visits to farms and agricultural activities.\n\nC\n\nA tourism model that focuses on cooking classe",
+  "opts": [
+   "A:A\n\nA form of tourism where people learn ab",
+   "B:B\n\nA type of rural travel involving visits",
+   "C:C\n\nA tourism model that focuses on cooking",
+   "D:D\n\nA travel program for exploring mountain"
+  ]
+ },
+ {
+  "i": 18,
+  "type": "choice",
+  "stem": "19.\n\nterrace\n\nA\n\nA platform for livestock to rest during grazing.\n\nB\n\nA canal dug to collect irrigation water.\n\nC\n\nA flat area of land on a slope used for cultivation.\n\nD\n\nA raised platform built to prevent soi",
+  "opts": [
+   "A:A\n\nA platform for livestock to rest during",
+   "B:B\n\nA canal dug to collect irrigation water",
+   "C:C\n\nA flat area of land on a slope used for",
+   "D:D\n\nA raised platform built to prevent soil"
+  ]
+ },
+ {
+  "i": 19,
+  "type": "choice",
+  "stem": "20.\n\nagrifood system\n\nA\n\nA system for transporting food across countries.\n\nB\n\nA community-supported farming initiative.\n\nC\n\nA type of database used for crop research.\n\nD\n\nThe interconnected stages from farm pro",
+  "opts": [
+   "A:A\n\nA system for transporting food across c",
+   "B:B\n\nA community-supported farming initiativ",
+   "C:C\n\nA type of database used for crop resear",
+   "D:D\n\nThe interconnected stages from farm pro"
+  ]
+ },
+ {
+  "i": 20,
+  "type": "choice",
+  "stem": "21.\n\nWhat is the main idea of the passage?\n\nA\n\nFarmers are turning to art to escape traditional labor.\n\nB\n\nRice Paddy Art reflects a blend of tradition, creativity, and community.\n\nC\n\nJapan is taking the lead i",
+  "opts": [
+   "A:A\n\nFarmers are turning to art to escape tr",
+   "B:B\n\nRice Paddy Art reflects a blend of trad",
+   "C:C\n\nJapan is taking the lead in agricultura",
+   "D:D\n\nRice Paddy Art offers a new model for g"
+  ]
+ },
+ {
+  "i": 21,
+  "type": "choice",
+  "stem": "22.\n\nWhat inspired the villagers of Inakadate to start creating Rice Paddy Art?\n\nA\n\nTheir desire to attract media attention through novelty agriculture.\n\nB\n\nInspiration from foreign examples and a wish to creat",
+  "opts": [
+   "A:A\n\nTheir desire to attract media attention",
+   "B:B\n\nInspiration from foreign examples and a",
+   "C:C\n\nA government program promoting cultural",
+   "D:D\n\nDissatisfaction with traditional farmin"
+  ]
+ },
+ {
+  "i": 22,
+  "type": "choice",
+  "stem": "23.\n\nWhy is the timing of rice planting crucial in creating Rice Paddy Art?\n\nA\n\nTo coordinate different rice species that require different nutrients from the soil.\n\nB\n\nTo ensure uniform growth across the entir",
+  "opts": [
+   "A:A\n\nTo coordinate different rice species th",
+   "B:B\n\nTo ensure uniform growth across the ent",
+   "C:C\n\nTo create color patterns that depend on",
+   "D:D\n\nTo prevent weeds from disrupting the ae"
+  ]
+ },
+ {
+  "i": 23,
+  "type": "choice",
+  "stem": "24.\n\nWhich of the following is NOT true according to the passage?\n\nA\n\nRice Paddy Art requires collaboration between artists and farmers.\n\nB\n\nTechnology is used to help ensure the accuracy of the designs.\n\nC\n\nTh",
+  "opts": [
+   "A:A\n\nRice Paddy Art requires collaboration b",
+   "B:B\n\nTechnology is used to help ensure the a",
+   "C:C\n\nThe artworks are permanent and preserve",
+   "D:D\n\nRice Paddy Art attracts visitors and be"
+  ]
+ },
+ {
+  "i": 24,
+  "type": "choice",
+  "stem": "25.\n\nWhat is the author's attitude toward Rice Paddy Art?\n\nA\n\nAppreciative and supportive.\n\nB\n\nDismissive and skeptical.\n\nC\n\nNeutral and factual.\n\nD\n\nCritical of its practicality.",
+  "opts": [
+   "A:A\n\nAppreciative and supportive.",
+   "B:B\n\nDismissive and skeptical.",
+   "C:C\n\nNeutral and factual.",
+   "D:D\n\nCritical of its practicality."
+  ]
+ }
+]

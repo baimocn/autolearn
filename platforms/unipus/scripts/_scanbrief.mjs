@@ -1,0 +1,10 @@
+import { connect } from "./utlib.mjs";
+const tabs=await(await fetch("http://127.0.0.1:9222/json/list")).json();
+const rd=tabs.find(t=>/ucontent\.unipus\.cn/.test(t.url));
+const L=await connect(rd.id);const {ev,frames,cdp}=L;
+const tb=(await frames()).find(f=>/textbook\/book/.test(f.url)&&f.ctx);
+const r=await ev(`(()=>{const bs=[...document.querySelectorAll('div.editor-question-block.questionBlockNode')];
+ return bs.map((b,i)=>{const t=(b.innerText||'').replace(/[ ]+/g,' ');return {i,len:t.length,file:b.querySelectorAll('input[type=file]').length,rec:b.querySelectorAll('[class*=record_]').length,sub:[...b.querySelectorAll('[class*=i-button_default-container]')].some(e=>(e.innerText||'').replace(/[ ]+/g,'')==='提交'),redo:/重新作答/.test(t),score:(t.match(/得分[^0-9]*([0-9.]+)/)||[])[1]||null,head:t.slice(0,42)};});})()`,tb.ctx).catch(e=>String(e));
+if(Array.isArray(r))r.forEach(x=>{if(x.file||x.rec||x.sub||x.score==='0')console.log(x.i,'len'+x.len,'file'+x.file,'rec'+x.rec,'sub'+x.sub,'score'+(x.score||'-'),'|',x.head);});
+else console.log(r);
+cdp.close();

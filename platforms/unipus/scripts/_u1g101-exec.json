@@ -1,0 +1,120 @@
+{
+ "healthy": true,
+ "probeLast": {
+  "blocks": 27,
+  "nonempty": 1
+ },
+ "fin": [
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u1/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"BeL5VSZ0JMZvXGeb\",\"nodeType\":\"h1\",\"a\":1794322386873,\"b\":1794322471888}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"lh5CBg2yWl61APog\",\"nodeType\":\"collapsible-block\",\"a\":1794322386873,\"b\":1794322471888}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u1/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"kCnJPJzgcX8VSxRR\",\"nodeType\":\"base-paragraph\",\"a\":1794322471887,\"b\":1794322474481}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u1/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"p0EVS1HViUVLMzYz\",\"nodeType\":\"base-paragraph\",\"a\":1794322474480,\"b\":1794322477110}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"BeL5VSZ0JMZvXGeb\",\"nodeType\":\"h1\",\"a\":1794322474480,\"b\":1794322477110}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"lh5CBg2yWl61APog\",\"nodeType\":\"collapsible-block\",\"a\":1794322474480,\"b\":1794322477110}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u1/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u1/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"BeL5VSZ0JMZvXGeb\",\"nodeType\":\"h1\",\"a\":1794322479697,\"b\":1794322486685}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"lh5CBg2yWl61APog\",\"nodeType\":\"collapsible-block\",\"a\":1794322479697,\"b\":1794322486685}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"D9cpN3MKZ7lilliL\",\"nodeType\":\"collapsible-block\",\"a\":1794322386873,\"b\":1794322486685}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"r9Bp9I6D7fWBbMQx\",\"nodeType\":\"h1\",\"a\":1794322386873,\"b\":1794322486685}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u1/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u1/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"BeL5VSZ0JMZvXGeb\",\"nodeType\":\"h1\",\"a\":1794322489368,\"b\":1794322491972}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"lh5CBg2yWl61APog\",\"nodeType\":\"collapsible-block\",\"a\":1794322489368,\"b\":1794322491972}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u1/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u1/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"OaTNChGEhBGAMX9s\",\"nodeType\":\"collapsible-block\",\"a\":1794322386873,\"b\":1794322496293}"
+  },
+  {
+   "url": "2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u1/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"BeL5VSZ0JMZvXGeb\",\"nodeType\":\"h1\",\"a\":1794322494679,\"b\":1794322498524}"
+  },
+  {
+   "url": "https://ipub.unipus.cn/api/reader/action/finishNode",
+   "post": "{\"bookId\":\"0iws4u_bQkCFpqmfcTvdAg\",\"bookVersionNumber\":\"VTqvEEI\",\"chapterId\":\"7840f299-1cce-403e-9320-d6ddf613cebf\",\"chapterVersionNumber\":\"V6AZSaN\",\"nodeId\":\"lh5CBg2yWl61APog\",\"nodeType\":\"collapsible-block\",\"a\":1794322494679,\"b\":1794322498524}"
+  }
+ ],
+ "dom": {
+  "nodeId": "OaTNChGEhBGAMX9s",
+  "hidden": false,
+  "contentLen": 6214,
+  "hasNewWords": true,
+  "hasAdverse": true,
+  "snippet": " New words ▲ adverse /9{dv%:s/ a. not good or favorable 不利的；有害的；反面的 agave /@9geIvi/ n. [C, U] 龙舌兰（生长在南北美洲热带干旱地区） agrochemical /8{gr@U9kemIkl/ n. [C] a chemical used in farming, e.g., a fertilizer 农用化学品（如化肥） ★ ancestral /{n9sestr@l/ a. relating to members of your family from the past 祖先的；祖传的 asteroid /9{st@8rOId/ n. [C]",
+  "bodyHasVocab": true,
+  "bodyTail": "a /9merIdə/ 梅里达（墨西哥东南部城市） Mexico /9meksIkəU/ 墨西哥（拉丁美洲国家） Yucatán Peninsula /8ju:kətɑ:n pə9nInsjUlə/ 尤卡坦半岛（位于中美洲北部） Yucatán Scientific Research Center （墨西哥）尤卡坦科学研究中心 Discovering China Unit test 上一章 下一章 资源分区 笔记 搜索 学习记录 术语库"
+ },
+ "shot": "shots/U1-u1g101.png"
+}

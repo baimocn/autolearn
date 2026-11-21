@@ -1,0 +1,80 @@
+{
+ "healthy": true,
+ "probeLast": {
+  "blocks": 27,
+  "nonempty": 21,
+  "targetLen": 1312,
+  "redo": true
+ },
+ "redo": 1,
+ "picked": [
+  {
+   "k": 0,
+   "want": "proposed by China in 2013",
+   "got": "proposed by China in 2013"
+  },
+  {
+   "k": 1,
+   "want": "lighter than grain yet more precious",
+   "got": "lighter than grain yet more precious"
+  },
+  {
+   "k": 2,
+   "want": "grown in the Yangtze River basin for millennia",
+   "got": "grown in the Yangtze River basin for millennia"
+  },
+  {
+   "k": 3,
+   "want": "though small in size",
+   "got": "though small in size"
+  },
+  {
+   "k": 4,
+   "want": "rich in spiritual symbolism and ritual value",
+   "got": "rich in spiritual symbolism and ritual value"
+  },
+  {
+   "k": 5,
+   "want": "a nation with a profound culture and a long history of farming",
+   "got": "a nation with a profound culture and a long history of "
+  }
+ ],
+ "filled": [
+  "proposed by China in 2013",
+  "lighter than grain yet more precious",
+  "grown in the Yangtze River basin for millennia",
+  "though small in size",
+  "rich in spiritual symbolism and ritual value",
+  "a nation with a profound culture and a long histor"
+ ],
+ "st": {
+  "len": 1027,
+  "score": "100",
+  "redo": true,
+  "sub": false,
+  "hasAnswer": true,
+  "text": "自动判题 计分 得分： 100 分 重新作答 The Belt and Road Initiative, proposed by China in 2013 , becomes the world's most popular international public good and the largest international cooperation platform. Silk, lighter than grain yet more precious , was once a prized luxury along the ancient trade routes. Rice, grown in the Yangtze River basin for millennia , became a staple food across much of Asia. Soybeans, though small in size , have had a massive impact on both traditional diets and modern industries. T"
+ },
+ "net": [
+  {
+   "url": "https://ipub.unipus.cn/api/reader/answer/submitScore",
+   "post": "{\"groupId\":\"n5CNWPbJFt02E3Zw==ZvTjV7oFwOFFbJpg\",\"userAnswers\":[{\"childId\":\"NaLkVorysL6cgCOq\",\"questionType\":\"fill_blanks_dropdown\",\"userAnswerValue\":\"jDGYaYtW9wr4COCw\"},{\"childId\":\"ljmzRGiW73Mml1ya\",\"questionType\":\"fill_blanks_dropdown\",\"userAnswerValue\":\"Z4moyro2XiUEvO5v\"},{\"childId\":\"AMdklkmuctQZpIsw\",\"questionType\":\"fill_blanks_dropdown\",\"userAnswerValue\":\"fQcLBRwdzJvUGjZD\"},{\"childId\":\"Yz974sAgZVaQpejK\",\"questionType\":\"fill_blanks_dropdown\",\"userAnswerValue\":\"yJtc8lzhPalKijTx\"},{\"childId\":\"j"
+  },
+  {
+   "url": "ipus.cn/course/api/v2/course_progress/course-v3:819008cfa01e0f2+xnkdxyy+20250801090513/u1/5cb554a204db411aa8958f116769407f/default",
+   "post": ""
+  }
+ ],
+ "dom": {
+  "blockIndex": 25,
+  "anchor": "n5CNWPbJFt02E3Zw",
+  "status": "done",
+  "len": 1027,
+  "score": "100",
+  "redo": true,
+  "sub": false,
+  "hasAnswer": true,
+  "text": "自动判题 计分 得分： 100 分 重新作答 The Belt and Road Initiative, proposed by China in 2013 , becomes the world's most popular international public good and the largest international cooperation platform. Silk, lighter than grain yet more precious , was once a prized luxury along the ancient trade routes. Rice, grown in the Yangtze River basin for millennia , became a staple food across much of Asia. Soybeans, though small in siz"
+ },
+ "shot": "shots/U1-u1g91.png"
+}
