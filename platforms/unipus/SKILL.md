@@ -163,6 +163,8 @@ CHAPTER   = { u1:"7840f299-...", u2:"2c3ad11f-...", u3:"5f975081-...", u4:"6c59c
 | `tidy.mjs` | 一次性关掉规则弹窗 + 目录抽屉 | `node tidy.mjs` |
 | `restore.mjs` / `close-id.mjs` | 恢复阅读器首页 / 按 id 关标签 | |
 
+> 登录脚本现状（2026-11-27 整理）：现行入口为 `login5.mjs`（掉线重登）、`ensure-login.mjs`、`relogin2.mjs`（被 oral/fixblocks 等脚本引用）；旧变体 `relogin.mjs`、`_dologin.mjs`、`_gologin.mjs`、`_login-new.mjs`、`_click-login.mjs`、`_patch-relogin.cjs` 及 460 余个下划线一次性探测脚本已移入 `scripts/archive/`（只归档未删除，需要时可移回）。运行时 JSON 倾倒与 txt/pdf 产物已清出仓库并加入 .gitignore；`auth-headers.json`（抓包鉴权头）已移除，`auditprog.mjs` 无此文件时按无鉴权运行，需要时在本机重新抓包生成，勿再提交。
+
 ---
 
 ## 2. 心智模型（先懂这个，再动手）

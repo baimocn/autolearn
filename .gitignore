@@ -1,5 +1,7 @@
 # 个人参数（含课程 ID、账号相关配置），不入库
 platforms/*/scripts/config.mjs
+# 鉴权抓包（auth-headers.json 等）绝不入库
+platforms/*/scripts/auth-headers.json
 # 运行日志与抓包产物
 *.log
 net-*.json
@@ -8,6 +10,20 @@ chap-*.json
 fin-*.json
 course-raw.json
 todo.json
+# scripts 下的运行时 JSON 倾倒（接口响应/课程树/进度状态）默认不入库，
+# 仅白名单保留工具自身要读的状态文件（已跟踪的不受影响）
+platforms/*/scripts/*.json
+!platforms/unipus/scripts/_pending.json
+!platforms/unipus/scripts/_pending-retry.json
+!platforms/unipus/scripts/allrun-state.json
+!platforms/unipus/scripts/b2-done.json
+!platforms/unipus/scripts/b2-state.json
+!platforms/unipus/scripts/batch-nodes-done.json
+!platforms/unipus/scripts/batch-nodes-state.json
+!platforms/unipus/scripts/leafchains.json
+# scripts 下的文本/PDF 运行产物
+platforms/*/scripts/*.txt
+platforms/*/scripts/*.pdf
 sa/
 *.png
 node_modules/
